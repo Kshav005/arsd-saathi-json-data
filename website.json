@@ -1,5 +1,9 @@
 {
     "STUDENT_PORTAL_URL": "https://www.arsdcollege.in/Internet/Student/Login.aspx",
+    "STUDENT_BASIC_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/STD_Basic_Details.aspx",
+    "STUDENT_MENTOR_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Mentor_Details.aspx",
+    "STUDENT_FACULTY_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Check_Student_Faculty_Details.aspx",
+    "STUDENT_ATTENDANCE_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Attendance_Report_Monthly.aspx",
     "SOCIETIES_URL": "https://arsdcollege.ac.in/student-societies/",
     "FEES_PORTAL_URL" :"https://www.arsdcollege.in/OnlinePayment_ARSD/Student_Login.aspx",
     "FEE_STRUCTURE_URL": "https://arsdcollege.ac.in/fee-structure/",
