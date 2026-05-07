@@ -4,12 +4,5 @@
     "STUDENT_MENTOR_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Mentor_Details.aspx",
     "STUDENT_FACULTY_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Check_Student_Faculty_Details.aspx",
     "STUDENT_ATTENDANCE_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Attendance_Report_Monthly.aspx",
-    "SOCIETIES_URL": "https://arsdcollege.ac.in/student-societies/",
-    "FEES_PORTAL_URL" :"https://www.arsdcollege.in/OnlinePayment_ARSD/Student_Login.aspx",
-    "FEE_STRUCTURE_URL": "https://arsdcollege.ac.in/fee-structure/",
-    "HANDBOOK_URL": "https://arsdcollege.ac.in/wp-content/uploads/2024/08/Student%20Handbook%202024-25.pdf",
-    "LIBRARY_URL": "https://library.arsdcollege.ac.in/",
-    "SAMARTH_URL": "https://slc.uod.ac.in/",
     "NOTICES_URL": "https://arsdcollege.ac.in/announcement-2/",
-    "GENERATE_PASSWORD_URL": "https://www.arsdcollege.in/Internet/Student/Login_Password_Generator.aspx"
 }
