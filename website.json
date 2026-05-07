@@ -1,0 +1,10 @@
+{
+    "STUDENT_PORTAL_URL": "https://www.arsdcollege.in/Internet/Student/Login.aspx",
+    "SOCIETIES_URL": "https://arsdcollege.ac.in/student-societies/",
+    "FEES_PORTAL_URL" :"https://www.arsdcollege.in/OnlinePayment_ARSD/Student_Login.aspx",
+    "FEE_STRUCTURE_URL": "https://arsdcollege.ac.in/fee-structure/",
+    "HANDBOOK_URL": "https://arsdcollege.ac.in/wp-content/uploads/2024/08/Student%20Handbook%202024-25.pdf",
+    "LIBRARY_URL": "https://library.arsdcollege.ac.in/",
+    "SAMARTH_URL": "https://slc.uod.ac.in/",
+    "NOTICES_URL": "https://arsdcollege.ac.in/announcement-2/",
+}
