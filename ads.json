@@ -36,7 +36,7 @@
   },
   { 
       "posterUrl": "https://github.com/Kshav005/arsd-saathi-json-data/blob/d2d22fd36111ae5d703a3a6a073f991f66e44c86/images/ad.jpeg",
-      "targetLink": "",
+      "targetLink": null,
       "by": "K",
       "startDate": "2025-5-10",
       "endDate": "2029-5-17"
