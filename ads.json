@@ -3,42 +3,42 @@
       "posterUrl": "https://fastly.picsum.photos/id/242/200/200.jpg?hmac=Z3aa8zbEQkEMFgnVh0Pn96vmCZHhJ17qzCrePYksrcY",
       "targetLink": "https://instagram.com",
       "by": "1OU",
-      "startDate": "2025-5-10",
-      "endDate": "2025-4-11"
+      "startDate": "2025-05-10",
+      "endDate": "2025-04-02"
   },
   { 
       "posterUrl": "https://fastly.picsum.photos/id/353/200/200.jpg?hmac=0pI-jYBxEC3AHp_0G8YowhiQRtQdv6u1Kfvuf0c9VNQ",
       "targetLink": "https://instagram.com",
       "by": "YU",
-      "startDate": "2025-5-10",
-      "endDate": "2025-5-17"
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-17"
   },
   { 
       "posterUrl": "https://fastly.picsum.photos/id/306/200/200.jpg?hmac=_MA2OQbvCf09ghW0BrkSYh9mOhP-xpHqg2c5joDIRFg",
       "targetLink": "https://instagram.com",
       "by": "XYZ",
-      "startDate": "2025-5-10",
-      "endDate": "2025-5-17"
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-17"
   },
   { 
       "posterUrl": "https://fastly.picsum.photos/id/474/200/200.jpg?hmac=X5gJb746aYb_1-VdQG2Cti4XcHC10gwaOfRGfs6fTNk",
       "targetLink": "https://instagram.com",
       "by": "ABC",
-      "startDate": "2025-5-10",
-      "endDate": "2025-5-17"
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-17"
   },
   { 
       "posterUrl": "https://fastly.picsum.photos/id/482/200/200.jpg?hmac=_oPafYMoTEVlnjtzFvYD5JoiK6Q-xfxbki4tYEMuGRI",
       "targetLink": "https://instagram.com",
       "by": "K2",
-      "startDate": "2025-5-10",
-      "endDate": "2025-5-17"
+      "startDate": "2025-05-10",
+      "endDate": "2025-05-17"
   },
   { 
-      "posterUrl": "https://raw.githubusercontent.com/Kshav005/arsd-saathi-json-data/main/images/ad.jpg",
+      "posterUrl": "https://github.com/Kshav005/arsd-saathi-json-data/blob/main/images/ad.jpg?raw=true",
       "targetLink": false,
       "by": "K",
-      "startDate": "2025-5-10",
-      "endDate": "2029-5-17"
+      "startDate": "2025-05-10",
+      "endDate": "2029-05-17"
   }
 ]
