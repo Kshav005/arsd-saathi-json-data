@@ -14,6 +14,13 @@
       "endDate": false
   },
   { 
+      "posterUrl": "https://github.com/Kshav005/arsd-saathi-json-data/blob/main/images/gshell.jpg?raw=true",
+      "targetLink": "https://gshellprints.com/",
+      "by": "GShell Prints",
+      "startDate": "2026-05-16",
+      "endDate": false
+  },
+  { 
       "posterUrl": "https://github.com/Kshav005/arsd-saathi-json-data/blob/main/images/ad.jpg?raw=true",
       "targetLink": false,
       "by": null,
