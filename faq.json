@@ -1,38 +1,56 @@
 [
-    {
-        "question": "What if I forget my password?",
-        "answer": "1. Try your first name in CAPITALS as the password.\n2. Visit the admin office for this query."
-    },
-    {
-        "question": "I lost my ID card, what should I do?",
-        "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR."
-    },
-    {
-        "question": "Some of my details are incorrect on the ArsdSaathi App, what should I do?",
-        "answer": "1. Kindly double check your information by logging onto the student portal.\n2. If details are wrong on the student portal, then report this issue in the admin office.\n3. Once details on the portal gets updated, re-login on the app\n4. If details are wrong only on ArsdSaathi, report the issue.\n"
-    },
-    {
-        "question": "What is ArsdSaathi?",
-        "answer": "It is an unofficial student-developed app, created to help ARSDians get their data in a compact and organized manner!"
-    },
-    {
-        "question": "What is my college email and password?",
-        "answer": "1. Your email id is `YOUR_ROLL_NO@arsd.du.ac.in` (38XXX@arsd.du.ac.in).\n2. The password is `YOUR_ROLL_NUMBER@YOUR_FIRSTNAME_IN_CAPITALS` (38XXX@ABC)"
-    },
-    {
-        "question": "When is ArsdSaathi releasing on Play Store and App Store?",
-        "answer": "An amount of money is required to publish an app to the Play Store ($25) and App Store ($99/year). Therefore, we are dependent on crowdfunding and would be happy if you can contribute any sort of amount."
-    },
-    {
-        "question": "What is this github link for downloading ArsdSaathi?",
-        "answer": "GitHub is a popular platform where developers can store, manage and distribute their projects. It is completely safe and the reason ArsdSaathi is only for Android phones right now is because this system allow installation from external sources."
-    },
-    {
-        "question": "How can I contact the developers for issues and feedbacks?",
-        "answer": "On the home page, there is an email link to 'Report an Issue' at the bottom of your screen."
-    },
-    {
-        "question": "Can I trust the developers with my information?",
-        "answer": "This is just an app created by a student to help thousands of other students. We do not store your data anywhere, its saved locally on your device."
-    }
+  {
+    "id": "cat-admissions",
+    "question": "🎓 Admissions & Eligibility",
+    "children": [
+      {
+        "id": "sub-ug-process",
+        "question": "Undergraduate Admissions",
+        "children": [
+          {
+            "id": "faq-cuet-cutoff",
+            "question": "What was last year's CUET cutoff?",
+            "answer": "Last year's CUET cutoff scores varied by course. For B.Com (Hons), it was roughly 740+. You can check the detailed course-wise matrix on our portal's admission sheet."
+          },
+          {
+            "id": "faq-docs-needed",
+            "question": "What documents are required?",
+            "answer": "You will need your Class 10 & 12 Marksheets, CUET Scorecard, Character Certificate, and Category Certificate (SC/ST/OBC/EWS) if applicable."
+          }
+        ]
+      },
+      {
+        "id": "sub-pg-process",
+        "question": "Postgraduate Admissions",
+        "answer": "PG admissions are centrally handled via the DU CSAS PG portal. Ensure you have valid CUET-PG credentials to log in and select our college."
+      }
+    ]
+  },
+  {
+    "id": "cat-academics",
+    "question": "📚 Academics & Examinations",
+    "children": [
+      {
+        "id": "faq-attendance",
+        "question": "What is the minimum attendance rule?",
+        "answer": "As per University norms, a minimum of 67% attendance is mandatory to be eligible to sit for the end-semester examinations."
+      },
+      {
+        "id": "faq-syllabus",
+        "question": "Where can I find the course syllabus?",
+        "answer": "The syllabus for all NEP-based undergraduate courses can be downloaded from the academic section on the official website."
+      }
+    ]
+  },
+  {
+    "id": "cat-campus",
+    "question": "🏢 Campus Facilities & Support",
+    "children": [
+      {
+        "id": "faq-hostel",
+        "question": "Is hostel accommodation available?",
+        "answer": "Currently, we do not offer on-campus hostel facilities. However, there are multiple safe PGs and student flats available in the immediate vicinity of the college."
+      }
+    ]
+  }
 ]
