@@ -50,7 +50,23 @@
         "id": "faq-hostel",
         "question": "Is hostel accommodation available?",
         "answer": "Currently, we do not offer on-campus hostel facilities. However, there are multiple safe PGs and student flats available in the immediate vicinity of the college."
-      }
+      },
+      {
+        "id": "faq-wifi",
+        "question": "Is WIFI service available?",
+        "answer": "Yes, you can connect to our network for network access. The names along with their passwords are listed below:\narsd-faculty - P@!admin*?\narsd-student - P@!admin\narsd-nt - P@!admin09"
+      },
+      {
+        "id": "sub-sub-library",
+        "question": "📖 Library related concern",
+        "children": [
+          {
+            "id": "faq-timings",
+            "question": "What are the timings of the library?",
+            "answer": ""
+          }
+        ]
+      },
     ]
   }
 ]
