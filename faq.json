@@ -63,7 +63,22 @@
           {
             "id": "faq-timings",
             "question": "What are the timings of the library?",
-            "answer": ""
+            "answer": "Mon to Fri: 9 AM to 5:30 PM\nSat: 9 AM to 4:30 PM\nClosed On Sundays and Holidays"
+          },
+          {
+            "id": "faq-office-timings",
+            "question": "What are the timings of the issue counter?",
+            "answer": "Mon to Fri: 9:30 AM to 4 PM\nClosed On Weekends and Holidays"
+          },
+          {
+            "id": "faq-library-facilities",
+            "question": "What facilities are available?",
+            "answer": "1. Access to 1 Lakh+ resources\n2. E-library facility on 1st floor\n3. Support for differently abled students\n4. E-resources access from ARSD library website\n5. Access to WEBOPAC"
+          },
+          {
+            "id": "faq-library-fine",
+            "question": "What is the fine policy if I failed to return the book on time?",
+            "answer": "₹1/per day, after assigned"
           }
         ]
       }
