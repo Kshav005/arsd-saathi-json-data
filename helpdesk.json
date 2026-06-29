@@ -4,5 +4,17 @@
     "incharge": "ABC",
     "location": "xyzz",
     "phone": "273273"
+  }.
+  {
+    "category": "Sports",
+    "incharge": "ABFC",
+    "location": "xyzz",
+    "phone": "2732723"
+  }.
+  {
+    "category": "Discrimination",
+    "incharge": "ABC",
+    "location": "xyzz",
+    "phone": "273273"
   }
 ]
