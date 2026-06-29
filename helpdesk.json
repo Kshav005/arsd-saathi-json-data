@@ -1,20 +1,20 @@
 [
   {
     "category": "Medical",
-    "incharge": "ABC",
-    "location": "xyzz",
-    "phone": "273273"
+    "incharge": "Dr. ABC",
+    "location": "Near Library",
+    "phone": "27327233"
   },
   {
     "category": "Sports",
-    "incharge": "ABFC",
-    "location": "xyzz",
+    "incharge": "Mrs. ABFC",
+    "location": "Canteen",
     "phone": "2732723"
   },
   {
     "category": "Discrimination",
-    "incharge": "ABC",
-    "location": "xyzz",
+    "incharge": "Mr. ABC PT",
+    "location": "1st floor, Room 36",
     "phone": "273273"
   }
 ]
