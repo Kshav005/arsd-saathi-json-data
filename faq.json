@@ -1,7 +1,7 @@
 [
   {
     "id": "cat-academics",
-    "question": "📚 Academics",
+    "question": "📚 Academics Concern",
     "children": [
       {
         "id": "faq-academic-calendar",
@@ -11,44 +11,53 @@
       {
         "id": "faq-nep-info",
         "question": "What are the multiple exit options regarding my UG course?",
-        "answer": "1 Year: Certificate\n2 Year: Diploma\n3 Year: regular Bachelor's Degree\n4 Year: Honours Degree with Research"
+        "answer": "1 Year: Certificate\n2 Year: Diploma\n3 Year: regular Bachelor's Degree\n4 Year: Honours Degree with Research",
+        "relatedIds": ["faq-ge-info", "cat-attendance-exams"]
       },
+      
       {
         "id": "faq-ge-info",
         "question": "What is GE and what are the benefits?",
-        "answer": "Benefits of taking GE (General Elective) include:\n1. Helps in earning minor degree in other domain.\n2. A student is allowed to switch fields for postgraduate studies.\n3. If your core subjects are challenging, picking scoring or interesting GE subjects can boost your overall SGPA."
+        "answer": "Benefits of taking GE (General Elective) include:\n1. Helps in earning minor degree in other domain.\n2. A student is allowed to switch fields for postgraduate studies.\n\n3. If your core subjects are challenging, picking scoring or interesting GE subjects can boost your overall SGPA.",
+        "relatedIds": ["faq-nep-info", "faq-ge-minor-help"]
       },
       {
         "id": "faq-ge-minor-help",
         "question": "How can I obtain minor degree using GE?",
-        "answer": "1. Opt for 4th year of your UG programme.\n2. Select GE subjects from the same domain in 7 semesters of your course."
+        "answer": "1. Opt for 4th year of your UG programme.\n2. Select GE subjects from the same domain in 7 semesters of your course.",
+        "relatedIds": ["faq-nep-info", "faq-attendance"]
       },
       {
         "id": "faq-sec-practical",
         "question": "Which SEC subjects don't have theory exams?",
-        "answer": "Basic IT Tools\nProgramming using Python\nStatistics with R\nEssentials of Python\nDigital Marketing\nRachnatmak Lekhan\nRangmanch\nFrontEnd Web Development\nNegotiation & Leadership\nCreative Writing\nYoga in Practice\nSericulture\nE-Tourism\nCommunication in Everyday/Professional Life"
+        "answer": "- Basic IT Tools\n- Programming using Python\n- Statistics with R\n- Essentials of Python\n- Digital Marketing\n- Rachnatmak Lekhan\n- Rangmanch\n\n- FrontEnd Web Development\n- Negotiation & Leadership\n- Creative Writing\n- Yoga in Practice\n- Sericulture\n- E-Tourism\n- Communication in Everyday/Professional Life",
+        "relatedIds": ["faq-vac-practical"]
       },
       {
         "id": "faq-vac-practical",
         "question": "Which VAC papers don't have theory exams?",
-        "answer": "Digital Empowerment\nFit India\nSports For Life"
+        "answer": "- Digital Empowerment\n- Fit India\n- Sports For Life",
+        "relatedIds": ["faq-sec-practical", "faq-nep-info"]
       }
     ]
   },
   {
     "id": "cat-attendance-exams",
-    "question": "📚 Attendance & Examinations",
+    "question": "📝 Attendance & Examinations",
     "children": [
       {
         "id": "faq-attendance",
         "question": "What is the minimum attendance rule?",
-        "answer": "As per University norms, a minimum of 67% attendance is mandatory to be eligible to sit for the end-semester examinations."
+        "answer": "As per University norms, a minimum of 67% attendance is mandatory to be eligible to sit for the end-semester examinations.",
+        "relatedIds": ["faq-attendance-low"]
       },
       {
         "id": "faq-attendance-low",
         "question": "What happens if I have below 67% attendance?",
-        "answer": "1. If it is below 67% and above 40%, then you are required to submit an undertaking.\n2. If it is below 40%, then affidavit + undertaking is required.\n3. Below 10% of attendance results in a meeting with the college board members."
+        "answer": "1. If it is below 67% and above 40%, then you are required to submit an undertaking.\n2. If it is below 40%, then affidavit + undertaking is required.\n3. Below 10% of attendance results in a meeting with the college board members.",
+        "relatedIds": ["faq-academics"]
       },
+      
       {
         "id": "faq-backlog-exam",
         "question": "What is the procedure for semester repeat or backlog exams?",
@@ -58,10 +67,10 @@
   },
   {
     "id": "cat-library",
-    "question": "📖 Library related concern",
+    "question": "📖 Library Related concern",
     "children": [
       {
-        "id": "faq-timings",
+        "id": "faq-library-timings",
         "question": "What are the timings of the library?",
         "answer": "Mon to Fri: 9 AM to 5:30 PM\nSat: 9 AM to 4:30 PM\nClosed On Sundays and Holidays"
       },
@@ -83,7 +92,8 @@
       {
         "id": "faq-library-card",
         "question": "How do I obtain a library card?",
-        "answer": "To obtain a library card, complete the admission process and visit the library desk along with your 2 passport size photos."
+        "answer": "To obtain a library card, complete the admission process and visit the library desk along with your 2 passport size photos.",
+        "relatedIds": ["faq-id-lost"]
       }
     ]
   },
@@ -94,12 +104,14 @@
       {
         "id": "faq-connectivity",
         "question": "Is public transport easily available near ARSD College?",
-        "answer": "Yes. ARSD College is well-connected by the Delhi Metro, DTC buses, and auto-rickshaws, making commuting convenient for students."
+        "answer": "Yes. ARSD College is well-connected by the Delhi Metro, DTC buses, and auto-rickshaws, making commuting convenient for students.",
+        "relatedIds": ["faq-diff-abled-services"]
       },
       {
         "id": "faq-travel-concessions",
         "question": "Are there any concessional passes available?",
-        "answer": "DTC Bus Form must be filled for Bus Pass. While there is no concessions for metro or other modes of transport."
+        "answer": "DTC Bus Form must be filled for Bus Pass. While there is no concessions for metro or other modes of transport.",
+        "relatedIds": ["faq-diff-abled-services"]
       },
       {
         "id": "faq-accomodation",
@@ -115,22 +127,26 @@
       {
         "id": "faq-sports-equipment",
         "question": "How can I get sports equipment issued?",
-        "answer": "You can get it from the sports room by submitting your ID card."
+        "answer": "You can get it from the sports room by submitting your ID card.",
+        "relatedIds": ["faq-id-lost"]
       },
       {
         "id": "faq-student-societies",
         "question": "How can I join a society/club?",
-        "answer": "Societies generally conduct recruitment drives at the beginning of the academic session. Students may apply according to the eligibility criteria and selection process of each society."
+        "answer": "Societies generally conduct recruitment drives at the beginning of the academic session. Students may apply according to the eligibility criteria and selection process of each society.",
+        "relatedIds": ["faq-student-societies-multiple", "faq-student-societies-certificate"]
       },
       {
-        "id": "faq-student-societies",
+        "id": "faq-student-societies-multiple",
         "question": "Are students allowed to join multiple societies?",
-        "answer": "Yes, as long as you can manage your attendance as well."
+        "answer": "Yes, as long as you can manage your attendance as well.",
+        "relatedIds": ["faq-student-societies", "faq-student-societies-certificate"]
       },
       {
-        "id": "faq-student-societies",
+        "id": "faq-student-societies-certificate",
         "question": "Are certificates provided for participation in societies?",
-        "answer": "On the basis of active participation in meetings and involvement in events, you are guaranteed to get a certification."
+        "answer": "On the basis of active participation in meetings and involvement in events, you are guaranteed to get a certification.",
+        "relatedIds": ["faq-student-societies-multiple"]
       }
       
     ]
@@ -142,7 +158,8 @@
       {
         "id": "faq-admin-office",
         "question": "What are the working hours of the admin office?",
-        "answer": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        "answer": "10 AM to 4 PM",
+        "relatedIds": ["faq-library-timings", "faq-email-help", "faq-sports-equipment"]
       },
       {
         "id": "faq-email-help",
@@ -152,18 +169,22 @@
       {
         "id": "faq-wifi",
         "question": "Is WIFI service available?",
-        "answer": "Yes, you can connect to our network for network access. The names along with their passwords are listed below:\narsd-faculty - P@!admin*?\narsd-student - P@!admin\narsd-nt - P@!admin09"
+        "answer": "Yes, you can connect to our network for network access. The names along with their passwords are listed below:\narsd-faculty - P@!admin*?\narsd-student - P@!admin\narsd-nt - P@!admin09",
+        "relatedIds": ["faq-admin-timings", "faq-email-help"]
       },
       {
-        "id": "faq-wifi",
+        "id": "faq-diff-abled-services",
         "question": "Are there support services for differently abled students?",
         "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students."
       },
-      {
-        "id": "faq-wifi",
+      { 
+        "id": "faq-id-lost",
         "question": "How do I get college ID reissued if it is lost?",
-        "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR."
+        "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR.",
+        "relatedIds": ["faq-admin-office"]
       }
     ]
   }
 ]
+
+
