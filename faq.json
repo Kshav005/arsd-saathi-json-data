@@ -6,7 +6,8 @@
       {
         "id": "faq-academic-calendar",
         "question": "Where can I find the academic calendar of the college?",
-        "answer": "The latest academic calendar and the Holiday list is available on the official University of Delhi website."
+        "answer": "The latest academic calendar and the Holiday list is available on the official University of Delhi website.",
+        "relatedIds":["cat-attendance-exams"]
       }, 
       {
         "id": "faq-nep-info",
@@ -14,7 +15,12 @@
         "answer": "1 Year: Certificate\n2 Year: Diploma\n3 Year: regular Bachelor's Degree\n4 Year: Honours Degree with Research",
         "relatedIds": ["faq-ge-info", "cat-attendance-exams"]
       },
-      
+      {
+        "id": "faq-teach-language",
+        "question": "Are classes conducted in English or Hindi?",
+        "answer": "Mainly in Hindi but also depending on the course and University guidelines.",
+        "relatedIds": ["faq-aec-info", "cat-attendance-exams"]
+      },
       {
         "id": "faq-ge-info",
         "question": "What is GE and what are the benefits?",
@@ -31,12 +37,18 @@
         "id": "faq-sec-practical",
         "question": "Which SEC subjects don't have theory exams?",
         "answer": "- Basic IT Tools\n- Programming using Python\n- Statistics with R\n- Essentials of Python\n- Digital Marketing\n- Rachnatmak Lekhan\n- Rangmanch\n\n- FrontEnd Web Development\n- Negotiation & Leadership\n- Creative Writing\n- Yoga in Practice\n- Sericulture\n- E-Tourism\n- Communication in Everyday/Professional Life",
-        "relatedIds": ["faq-vac-practical"]
+        "relatedIds": ["faq-vac-practical", "faq-aec-info"]
       },
       {
         "id": "faq-vac-practical",
         "question": "Which VAC papers don't have theory exams?",
         "answer": "- Digital Empowerment\n- Fit India\n- Sports For Life",
+        "relatedIds": ["faq-sec-practical", "faq-nep-info"]
+      },
+      {
+        "id": "faq-aec-info",
+        "question": "What AEC subject I can choose from?",
+        "answer": "You cannot choose. The college will alternatively assign you either EVS or your mother tongue language",
         "relatedIds": ["faq-sec-practical", "faq-nep-info"]
       }
     ]
@@ -57,7 +69,12 @@
         "answer": "1. If it is below 67% and above 40%, then you are required to submit an undertaking.\n2. If it is below 40%, then affidavit + undertaking is required.\n3. Below 10% of attendance results in a meeting with the college board members.",
         "relatedIds": ["faq-academics"]
       },
-      
+      {
+        "id": "faq-admit-card-download",
+        "question": "Where can I download my examination admit card?",
+        "answer": "Your admit card will be issued through the SLC examination portal as per the notified schedule.",
+        "relatedIds": ["faq-attendance-low", "faq-backlog-exam"]
+      },
       {
         "id": "faq-backlog-exam",
         "question": "What is the procedure for semester repeat or backlog exams?",
@@ -93,7 +110,19 @@
         "id": "faq-library-card",
         "question": "How do I obtain a library card?",
         "answer": "To obtain a library card, complete the admission process and visit the library desk along with your 2 passport size photos.",
-        "relatedIds": ["faq-id-lost"]
+        "relatedIds": ["faq-library-card-lost", "faq-library-timings"]
+      },
+      {
+        "id": "faq-library-card-lost",
+        "question": "I lost my library card, help me!",
+        "answer": "To get a new library card, you have to submit an FIR copy along with an application and ₹20 as fine.",
+        "relatedIds": ["faq-id-lost", "faq-library-card-lost"]
+      },
+      {
+        "id": "faq-library-book-lost",
+        "question": "I lost my issued book. What do I do?",
+        "answer": "Purchase the latest edition of the same book and inform the library authority.",
+        "relatedIds": ["faq-library-card-lost", "faq-library-timings"]
       }
     ]
   },
@@ -108,6 +137,12 @@
         "relatedIds": ["faq-diff-abled-services"]
       },
       {
+        "id": "faq-parking-lot",
+        "question": "Is parking available for students?",
+        "answer": "Yes but limited parking facilities may be available subject to college rules.",
+        "relatedIds": ["faq-diff-abled-services", "faq-travel-concessions"]
+      },
+      {
         "id": "faq-travel-concessions",
         "question": "Are there any concessional passes available?",
         "answer": "DTC Bus Form must be filled for Bus Pass. While there is no concessions for metro or other modes of transport.",
@@ -117,6 +152,11 @@
         "id": "faq-accomodation",
         "question": "Are there private accommodation options available near ARSD College?",
         "answer": "Several private PGs, hostels, and rental accommodations are available near the college."
+      },
+      {
+        "id": "faq-printing-service",
+        "question": "Are stationary or printing facilities available?",
+        "answer": "Yes! Printing services along with stationary items, are available near or within the campus."
       }
     ]
   },
@@ -124,6 +164,12 @@
     "id": "cat-socities-activites",
     "question": "🗣️ Activities & Societies",
     "children": [
+      {
+        "id": "faq-annual-fest-date",
+        "question": "When is the annual fest of ARSD?",
+        "answer": "The annual fest, TIDE, usually happens around the first or second week of March.",
+        "relatedIds": ["faq-id-lost"]
+      },
       {
         "id": "faq-sports-equipment",
         "question": "How can I get sports equipment issued?",
@@ -147,8 +193,19 @@
         "question": "Are certificates provided for participation in societies?",
         "answer": "On the basis of active participation in meetings and involvement in events, you are guaranteed to get a certification.",
         "relatedIds": ["faq-student-societies-multiple"]
+      },
+      {
+        "id": "faq-internship-documents",
+        "question": "How can I apply for official documents required for internships or higher studies?",
+        "answer": "You need to visit the admin office and further following their procedures.",
+        "relatedIds": ["faq-admin-timings"]
+      },
+      {
+        "id": "faq-student-union-election",
+        "question": "When is the student election happening?",
+        "answer": "The student election starts around September.",
+        "relatedIds": ["faq-student-societies-multiple"]
       }
-      
     ]
   },
   {
@@ -156,7 +213,7 @@
     "question": "🏢 Campus Facilities & Support",
     "children": [
       {
-        "id": "faq-admin-office",
+        "id": "faq-admin-timings",
         "question": "What are the working hours of the admin office?",
         "answer": "10 AM to 4 PM",
         "relatedIds": ["faq-library-timings", "faq-email-help", "faq-sports-equipment"]
@@ -173,6 +230,12 @@
         "relatedIds": ["faq-admin-timings", "faq-email-help"]
       },
       {
+        "id": "faq-laptop-allowance",
+        "question": "Can I bring my laptop to college?",
+        "answer": "Yes. Students may bring laptops for academic purposes, subject to college rules.",
+        "relatedIds": ["faq-wifi", "faq-library-timings"]
+      },
+      {
         "id": "faq-diff-abled-services",
         "question": "Are there support services for differently abled students?",
         "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students."
@@ -181,8 +244,16 @@
         "id": "faq-id-lost",
         "question": "How do I get college ID reissued if it is lost?",
         "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR.",
-        "relatedIds": ["faq-admin-office"]
+        "relatedIds": ["faq-admin-timings", "faq-item-lost", "faq-library-book-lost"]
+      },
+      { 
+        "id": "faq-item-lost",
+        "question": "What should I do if I lose a personal belonging on campus?",
+        "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. Report the matter to the college office or security personnels.",
+        "relatedIds": ["faq-admin-timings", "faq-item-lost"]
       }
     ]
   }
 ]
+
+
