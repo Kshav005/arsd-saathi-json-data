@@ -5,13 +5,19 @@
     "children": [
       {
         "id": "subcat-curriculum",
-        "question": "Curriculum",
+        "question": "1. Curriculum",
         "children": [
           {
             "id": "faq-academic-calendar",
             "question": "Where can I find the academic calendar?",
             "answer": "The latest academic calendar and the Holiday list is available on the official University of Delhi website.",
-            "relatedIds": ["faq-exam-schedule", "faq-annual-fest-date"]
+            "relatedIds": ["faq-annual-fest-date"]
+          },
+          {
+            "id": "faq-nep-info",
+            "question": "What are the multiple exit options under NEP?",
+            "answer": "1 Year: Certificate\n2 Year: Diploma\n3 Year: regular Bachelor's Degree\n4 Year: Honours Degree with Research",
+            "relatedIds": ["faq-ge-minor-help", "faq-degree-cert"]
           },
           {
             "id": "faq-teach-language",
@@ -20,58 +26,39 @@
             "relatedIds": ["faq-course-syllabus", "faq-aec-info"]
           },
           {
-            "id": "faq-credits-required",
-            "question": "How many credits are required to graduate?",
-            "answer": "?????",
-            "relatedIds": ["faq-nep-info", "faq-major-minor-diff"]
-          },
-          {
             "id": "faq-major-minor-diff",
             "question": "What is the difference between Major and Minor?",
-            "answer": "?????",
-            "relatedIds": ["faq-ge-minor-help", "faq-credits-required"]
+            "answer": "Major is the primary domain on which your core subjects are based on. \n\nWhile Minor is an additional subject from different domain, taken alongside the Major by choosing appropriate GE.",
+            "relatedIds": ["faq-ge-minor-help"]
           },
           {
             "id": "faq-internal-assessments",
             "question": "How are internal assessments conducted?",
-            "answer": "?????",
-            "relatedIds": ["faq-practical-marks", "faq-attendance-calc"]
-          },
-          {
-            "id": "faq-practical-marks",
-            "question": "How are practical marks awarded?",
-            "answer": "?????",
-            "relatedIds": ["faq-internal-assessments", "faq-sec-practical", "faq-vac-practical"]
+            "answer": "Internal marks are awarded by practical exams, VIVAs, assignments, attendance and activeness in class."
           },
           {
             "id": "faq-course-syllabus",
             "question": "Where can I see my course syllabus?",
-            "answer": "?????",
-            "relatedIds": ["faq-academic-calendar", "faq-online-material"]
+            "answer": "The syllabus is shared via assigned teachers or can be found online.",
+            "relatedIds": ["faq-academic-calendar", "faq-major-minor-diff"]
           }
         ]
       },
       {
         "id": "subcat-courses",
-        "question": "Courses (GE/AEC/SEC/VAC)",
+        "question": "2. Courses (GE/AEC/SEC/VAC)",
         "children": [
           {
             "id": "faq-ge-info",
             "question": "What is GE?",
             "answer": "Benefits of taking GE (General Elective) include:\n1. Helps in earning minor degree in other domain.\n2. A student is allowed to switch fields for postgraduate studies.\n\n3. If your core subjects are challenging, picking scoring or interesting GE subjects can boost your overall SGPA.",
-            "relatedIds": ["faq-ge-change", "faq-ge-minor-help", "faq-fail-ge"]
+            "relatedIds": ["faq-ge-minor-help", "faq-change-other-electives"]
           },
           {
-            "id": "faq-ge-change",
-            "question": "Can I change my GE after selecting it?",
-            "answer": "?????",
-            "relatedIds": ["faq-change-other-electives", "faq-ge-info"]
-          },
-          {
-            "id": "faq-fail-ge",
-            "question": "What happens if I fail a GE paper?",
-            "answer": "?????",
-            "relatedIds": ["faq-backlog-exam", "faq-ge-info"]
+            "id": "faq-ge-minor-help",
+            "question": "How can I obtain a minor degree through GE?",
+            "answer": "1. Opt for 4th year of your UG programme.\n2. Select GE subjects from the same domain in 7 semesters of your course.",
+            "relatedIds": ["faq-nep-info", "faq-ge-info", "faq-major-minor-diff"]
           },
           {
             "id": "faq-aec-info",
@@ -82,38 +69,20 @@
           {
             "id": "faq-sec-practical",
             "question": "Which SEC papers have only practicals?",
-            "answer": "- Basic IT Tools\n- Programming using Python\n- Statistics with R\n- Essentials of Python\n- Digital Marketing\n- Rachnatmak Lekhan\n- Rangmanch\n\n- FrontEnd Web Development\n- Negotiation & Leadership\n- Creative Writing\n- Yoga in Practice\n- Sericulture\n- E-Tourism\n- Communication in Everyday/Professional Life",
-            "relatedIds": ["faq-vac-practical", "faq-practical-marks"]
+            "answer": "- Basic IT Tools\n- Programming using Python\n- Statistics with R\n- Essentials of Python\n- Digital Marketing\n- Rachnatmak Lekhan\n- Rangmanch\n- FrontEnd Web Development\n- Negotiation & Leadership\n- Creative Writing\n- Yoga in Practice\n- Sericulture\n- E-Tourism\n- Communication in Everyday/Professional Life",
+            "relatedIds": ["faq-vac-practical", "faq-internal-assessments"]
           },
           {
             "id": "faq-vac-practical",
             "question": "Which VAC papers have only practicals?",
             "answer": "- Digital Empowerment\n- Fit India\n- Sports For Life",
-            "relatedIds": ["faq-sec-practical", "faq-practical-marks"]
+            "relatedIds": ["faq-sec-practical", "faq-internal-assessments"]
           },
           {
             "id": "faq-change-other-electives",
-            "question": "Can I change my AEC/SEC/VAC?",
-            "answer": "?????",
-            "relatedIds": ["faq-ge-change", "faq-aec-info"]
-          }
-        ]
-      },
-      {
-        "id": "subcat-nep",
-        "question": "NEP",
-        "children": [
-          {
-            "id": "faq-nep-info",
-            "question": "What are the multiple exit options under NEP?",
-            "answer": "1 Year: Certificate\n2 Year: Diploma\n3 Year: regular Bachelor's Degree\n4 Year: Honours Degree with Research",
-            "relatedIds": ["faq-credits-required", "faq-ge-minor-help", "faq-degree-cert"]
-          },
-          {
-            "id": "faq-ge-minor-help",
-            "question": "How can I obtain a minor degree through GE?",
-            "answer": "1. Opt for 4th year of your UG programme.\n2. Select GE subjects from the same domain in 7 semesters of your course.",
-            "relatedIds": ["faq-nep-info", "faq-ge-info", "faq-major-minor-diff"]
+            "question": "Can I change my GE/AEC/SEC/VAC?",
+            "answer": "By visiting the admin office, you can get your answer!",
+            "relatedIds": ["faq-aec-info", "faq-admin-timings"]
           }
         ]
       }
@@ -125,73 +94,49 @@
     "children": [
       {
         "id": "subcat-attendance",
-        "question": "Attendance",
+        "question": "1. Attendance",
         "children": [
           {
             "id": "faq-attendance",
-            "question": "Minimum attendance requirement",
+            "question": "What is the minimum attendance requirement for the college?",
             "answer": "As per University norms, a minimum of 67% attendance is mandatory to be eligible to sit for the end-semester examinations.",
-            "relatedIds": ["faq-attendance-low", "faq-attendance-calc", "faq-attendance-medical"]
+            "relatedIds": ["faq-attendance-low", "faq-admit-card-download"]
           },
           {
             "id": "faq-attendance-low",
-            "question": "Below 67% attendance",
+            "question": "I want to get my admit card stamped. What to do when I have below 67% attendance?",
             "answer": "1. If it is below 67% and above 40%, then you are required to submit an undertaking.\n2. If it is below 40%, then affidavit + undertaking is required.\n3. Below 10% of attendance results in a meeting with the college board members.",
-            "relatedIds": ["faq-attendance", "faq-attendance-medical"]
-          },
-          {
-            "id": "faq-attendance-medical",
-            "question": "Medical leave policy",
-            "answer": "?????",
-            "relatedIds": ["faq-attendance-low", "faq-medical-room"]
-          },
-          {
-            "id": "faq-attendance-calc",
-            "question": "How is attendance calculated?",
-            "answer": "?????",
-            "relatedIds": ["faq-attendance", "faq-attendance-correction"]
-          },
-          {
-            "id": "faq-attendance-correction",
-            "question": "Can attendance be corrected?",
-            "answer": "?????",
-            "relatedIds": ["faq-attendance-calc", "faq-attendance-low"]
+            "relatedIds": ["faq-attendance"]
           },
           {
             "id": "faq-attendance-practical",
             "question": "Is attendance compulsory for practical classes?",
-            "answer": "?????",
-            "relatedIds": ["faq-attendance", "faq-practical-marks"]
+            "answer": "All classes affect your internal marks, especially in practical heavy classes.",
+            "relatedIds": ["faq-attendance", "faq-internal-assessments"]
           }
         ]
       },
       {
         "id": "subcat-admit-cards",
-        "question": "Admit Cards & Schedules",
+        "question": "2. Admit Cards & Schedules",
         "children": [
           {
             "id": "faq-admit-card-download",
-            "question": "Admit card download",
+            "question": "From where I can download my admit card?",
             "answer": "Your admit card will be issued through the SLC examination portal as per the notified schedule.",
-            "relatedIds": ["faq-exam-schedule", "faq-exam-centre"]
-          },
-          {
-            "id": "faq-exam-schedule",
-            "question": "Examination schedule",
-            "answer": "?????",
-            "relatedIds": ["faq-admit-card-download", "faq-academic-calendar"]
+            "relatedIds": ["faq-academic-calendar", "faq-admit-card-download", "faq-exam-centre"]
           },
           {
             "id": "faq-exam-centre",
-            "question": "Examination centre information",
-            "answer": "?????",
+            "question": "In which exam centre I have to go?",
+            "answer": "For all subjects, the exam is conducted in your respective college!",
             "relatedIds": ["faq-admit-card-download"]
           }
         ]
       },
       {
         "id": "subcat-results",
-        "question": "Results & Revaluation",
+        "question": "3. Results & Revaluation",
         "children": [
           {
             "id": "faq-backlog-exam",
@@ -202,14 +147,14 @@
           {
             "id": "faq-results-declared",
             "question": "When are semester results declared?",
-            "answer": "?????",
+            "answer": "Usually after 1 or 2 months of your last exam, it is expected ",
             "relatedIds": ["faq-download-marksheet", "faq-revaluation"]
           },
           {
             "id": "faq-download-marksheet",
             "question": "How can I download my marksheet?",
-            "answer": "?????",
-            "relatedIds": ["faq-results-declared", "faq-duplicate-marksheet"]
+            "answer": "You can download your marksheet on the SLC portal once declared.",
+            "relatedIds": ["faq-results-declared"]
           },
           {
             "id": "faq-revaluation",
@@ -228,12 +173,6 @@
             "question": "What is improvement examination?",
             "answer": "?????",
             "relatedIds": ["faq-backlog-exam", "faq-results-declared"]
-          },
-          {
-            "id": "faq-duplicate-marksheet",
-            "question": "Duplicate marksheet",
-            "answer": "?????",
-            "relatedIds": ["faq-download-marksheet", "faq-transcript-request"]
           }
         ]
       }
@@ -353,7 +292,7 @@
             "id": "faq-transcript-request",
             "question": "Transcript request",
             "answer": "?????",
-            "relatedIds": ["faq-degree-cert", "faq-duplicate-marksheet"]
+            "relatedIds": ["faq-degree-cert"]
           },
           {
             "id": "faq-degree-cert",
@@ -428,12 +367,6 @@
             "relatedIds": ["faq-wifi"]
           },
           {
-            "id": "faq-online-material",
-            "question": "Where can I access online study material?",
-            "answer": "?????",
-            "relatedIds": ["faq-course-syllabus", "faq-elibrary-access"]
-          },
-          {
             "id": "faq-slc-portal",
             "question": "How do I use the SLC portal?",
             "answer": "?????",
@@ -467,7 +400,7 @@
             "id": "faq-medical-room",
             "question": "Is there a medical room on campus?",
             "answer": "?????",
-            "relatedIds": ["faq-first-aid", "faq-emergency-contact", "faq-attendance-medical"]
+            "relatedIds": ["faq-first-aid", "faq-emergency-contact"]
           },
           {
             "id": "faq-emergency-contact",
@@ -611,7 +544,7 @@
             "id": "faq-elibrary-access",
             "question": "E-library access",
             "answer": "?????",
-            "relatedIds": ["faq-remote-journals", "faq-library-facilities", "faq-online-material"]
+            "relatedIds": ["faq-remote-journals", "faq-library-facilities"]
           },
           {
             "id": "faq-remote-journals",
