@@ -37,6 +37,12 @@
             "answer": "Internal marks are awarded by practical exams, VIVAs, assignments, attendance and activeness in class."
           },
           {
+            "id": "faq-fourth-year-diff",
+            "question": "What is the difference between dissertation, academics and entrepreneurship?",
+            "answer": "1. Dissertation: Research to be done alone\n2. Academics: Research to be done in a group\n3. Entrepreneurship: Build a startup from scratch along with financial planning and MVP.",
+            "relatedIds": ["faq-nep-info", "faq-ge-minor-help"]
+          },
+          {
             "id": "faq-course-syllabus",
             "question": "Where can I see my course syllabus?",
             "answer": "The syllabus is shared via assigned teachers or can be found online.",
@@ -158,20 +164,14 @@
           },
           {
             "id": "faq-revaluation",
-            "question": "How do I apply for revaluation?",
-            "answer": "?????",
-            "relatedIds": ["faq-photocopy-answers", "faq-results-declared"]
-          },
-          {
-            "id": "faq-photocopy-answers",
-            "question": "What is photocopy of answer sheet?",
-            "answer": "?????",
-            "relatedIds": ["faq-revaluation"]
+            "question": "How do I apply for revaluation/discrepency?",
+            "answer": "To apply for revaluation or in case of discrepency, contact the admin office within 1 month of result declaration.",
+            "relatedIds": ["faq-results-declared"]
           },
           {
             "id": "faq-improvement-exam",
             "question": "What is improvement examination?",
-            "answer": "?????",
+            "answer": "In order to improve grades in the last result, you are given an option to file for re-examination in order to achieve a better result.",
             "relatedIds": ["faq-backlog-exam", "faq-results-declared"]
           }
         ]
@@ -184,7 +184,7 @@
     "children": [
       {
         "id": "subcat-admin",
-        "question": "Administration & Rules",
+        "question": "1. Administration & Rules",
         "children": [
           {
             "id": "faq-admin-timings",
@@ -193,142 +193,38 @@
             "relatedIds": ["faq-office-timings", "faq-library-timings"]
           },
           {
-            "id": "faq-pay-fee",
-            "question": "How do I pay my college fee?",
-            "answer": "?????",
-            "relatedIds": ["faq-miss-fee-deadline", "faq-duplicate-fee-receipt"]
-          },
-          {
             "id": "faq-miss-fee-deadline",
             "question": "What happens if I miss the fee deadline?",
-            "answer": "?????",
-            "relatedIds": ["faq-pay-fee"]
-          },
-          {
-            "id": "faq-scholarships-avail",
-            "question": "Are scholarships available?",
-            "answer": "?????",
-            "relatedIds": ["faq-financial-assist", "faq-change-category"]
-          },
-          {
-            "id": "faq-financial-assist",
-            "question": "How can I apply for financial assistance?",
-            "answer": "?????",
-            "relatedIds": ["faq-scholarships-avail", "faq-pay-fee"]
-          },
-          {
-            "id": "faq-fee-refund",
-            "question": "Is fee refund available after cancellation?",
-            "answer": "?????",
-            "relatedIds": ["faq-withdraw-admission"]
-          },
-          {
-            "id": "faq-withdraw-admission",
-            "question": "How can I withdraw admission?",
-            "answer": "?????",
-            "relatedIds": ["faq-fee-refund", "faq-migration-cert"]
-          },
-          {
-            "id": "faq-gap-year",
-            "question": "How do I apply for a gap year?",
-            "answer": "?????",
-            "relatedIds": ["faq-withdraw-admission"]
-          },
-          {
-            "id": "faq-leave-campus",
-            "question": "Can students leave campus during class hours?",
-            "answer": "?????",
-            "relatedIds": ["faq-visitors-allowed", "faq-attendance"]
+            "answer": "?????"
           },
           {
             "id": "faq-visitors-allowed",
             "question": "Are visitors allowed inside campus?",
-            "answer": "?????",
-            "relatedIds": ["faq-leave-campus", "faq-photography-policy"]
-          },
-          {
-            "id": "faq-photography-policy",
-            "question": "Is photography allowed?",
-            "answer": "?????",
-            "relatedIds": ["faq-visitors-allowed"]
-          },
-          {
-            "id": "faq-dress-code",
-            "question": "Is there a dress code?",
-            "answer": "?????",
-            "relatedIds": ["faq-anti-ragging"]
+            "answer": "Only during college fest or similar events."
           }
         ]
       },
       {
         "id": "subcat-documents",
-        "question": "Documents",
+        "question": "2. Documents",
         "children": [
           {
             "id": "faq-internship-documents",
-            "question": "Internship documents",
-            "answer": "You need to visit the admin office and further following their procedures.",
-            "relatedIds": ["faq-bonafide-cert", "faq-character-cert", "faq-internship-verification"]
-          },
-          {
-            "id": "faq-bonafide-cert",
-            "question": "Bonafide certificate",
-            "answer": "?????",
-            "relatedIds": ["faq-character-cert", "faq-internship-documents"]
-          },
-          {
-            "id": "faq-character-cert",
-            "question": "Character certificate",
-            "answer": "?????",
-            "relatedIds": ["faq-bonafide-cert", "faq-migration-cert"]
+            "question": "How can I obtain an LOR?",
+            "answer": "Visit the admin office after writing an application along with your recent marksheet copy.",
+            "relatedIds": ["faq-admin-timings"]
           },
           {
             "id": "faq-migration-cert",
             "question": "Migration certificate",
             "answer": "?????",
-            "relatedIds": ["faq-character-cert", "faq-withdraw-admission"]
-          },
-          {
-            "id": "faq-transcript-request",
-            "question": "Transcript request",
-            "answer": "?????",
-            "relatedIds": ["faq-degree-cert"]
-          },
-          {
-            "id": "faq-degree-cert",
-            "question": "Degree certificate",
-            "answer": "?????",
-            "relatedIds": ["faq-transcript-request", "faq-nep-info"]
-          },
-          {
-            "id": "faq-duplicate-fee-receipt",
-            "question": "Duplicate fee receipt",
-            "answer": "?????",
-            "relatedIds": ["faq-pay-fee"]
-          },
-          {
-            "id": "faq-update-mobile",
-            "question": "How can I update my mobile number?",
-            "answer": "?????",
-            "relatedIds": ["faq-update-email", "faq-student-portal-login"]
-          },
-          {
-            "id": "faq-update-email",
-            "question": "How do I update my email?",
-            "answer": "?????",
-            "relatedIds": ["faq-update-mobile", "faq-reset-email-pass"]
-          },
-          {
-            "id": "faq-change-category",
-            "question": "Can I change my category details?",
-            "answer": "?????",
-            "relatedIds": ["faq-scholarships-avail"]
+            "relatedIds": ["faq-withdraw-admission"]
           }
         ]
       },
       {
         "id": "subcat-it-services",
-        "question": "IT Services",
+        "question": "3. IT Services",
         "children": [
           {
             "id": "faq-email-help",
@@ -338,51 +234,39 @@
           },
           {
             "id": "faq-wifi",
-            "question": "Wi-Fi",
+            "question": "Is Wi-Fi available in the campus?",
             "answer": "Yes, you can connect to our network for network access. The names along with their passwords are listed below:\narsd-faculty - P@!admin*?\narsd-student - P@!admin\narsd-nt - P@!admin09",
             "relatedIds": ["faq-wifi-troubleshoot", "faq-laptop-allowance"]
           },
           {
             "id": "faq-laptop-allowance",
-            "question": "Laptop policy",
+            "question": "Can I bring my laptop to the college?",
             "answer": "Yes. Students may bring laptops for academic purposes, subject to college rules.",
-            "relatedIds": ["faq-wifi"]
-          },
-          {
-            "id": "faq-student-portal-login",
-            "question": "How do I log into the student portal?",
-            "answer": "?????",
-            "relatedIds": ["faq-slc-portal", "faq-email-help"]
+            "relatedIds": ["faq-wifi", "faq-library-timings"]
           },
           {
             "id": "faq-reset-email-pass",
             "question": "How do I reset my college email password?",
-            "answer": "?????",
+            "answer": "Contact the admin office for account retreival.",
             "relatedIds": ["faq-email-help", "faq-update-email"]
           },
           {
             "id": "faq-wifi-troubleshoot",
             "question": "Wi-Fi not working—what should I do?",
-            "answer": "?????",
+            "answer": "Try connecting to other networks or try again in few minutes.",
             "relatedIds": ["faq-wifi"]
-          },
-          {
-            "id": "faq-slc-portal",
-            "question": "How do I use the SLC portal?",
-            "answer": "?????",
-            "relatedIds": ["faq-student-portal-login", "faq-admit-card-download"]
           }
         ]
       },
       {
         "id": "subcat-lost-found-support",
-        "question": "Lost & Found & Student Support",
+        "question": "4. Lost & Found & Student Support",
         "children": [
           {
             "id": "faq-item-lost",
             "question": "Lost personal belongings",
             "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. Report the matter to the college office or security personnels.",
-            "relatedIds": ["faq-id-lost", "faq-security-contact"]
+            "relatedIds": ["faq-id-lost"]
           },
           {
             "id": "faq-id-lost",
@@ -392,63 +276,9 @@
           },
           {
             "id": "faq-diff-abled-services",
-            "question": "Support for differently abled students",
-            "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students.",
-            "relatedIds": ["faq-medical-room", "faq-library-facilities"]
-          },
-          {
-            "id": "faq-medical-room",
-            "question": "Is there a medical room on campus?",
-            "answer": "?????",
-            "relatedIds": ["faq-first-aid", "faq-emergency-contact"]
-          },
-          {
-            "id": "faq-emergency-contact",
-            "question": "What should I do in an emergency?",
-            "answer": "?????",
-            "relatedIds": ["faq-medical-room", "faq-security-contact"]
-          },
-          {
-            "id": "faq-security-contact",
-            "question": "Who should I contact for campus security?",
-            "answer": "?????",
-            "relatedIds": ["faq-emergency-contact", "faq-anti-ragging"]
-          },
-          {
-            "id": "faq-first-aid",
-            "question": "Is first aid available?",
-            "answer": "?????",
-            "relatedIds": ["faq-medical-room"]
-          },
-          {
-            "id": "faq-counselling",
-            "question": "Counselling services",
-            "answer": "?????",
-            "relatedIds": ["faq-grievance", "faq-wdc"]
-          },
-          {
-            "id": "faq-anti-ragging",
-            "question": "Anti-ragging cell",
-            "answer": "?????",
-            "relatedIds": ["faq-grievance", "faq-security-contact"]
-          },
-          {
-            "id": "faq-grievance",
-            "question": "Grievance redressal",
-            "answer": "?????",
-            "relatedIds": ["faq-icc", "faq-anti-ragging"]
-          },
-          {
-            "id": "faq-wdc",
-            "question": "Women Development Cell",
-            "answer": "?????",
-            "relatedIds": ["faq-icc", "faq-counselling"]
-          },
-          {
-            "id": "faq-icc",
-            "question": "Internal Complaints Committee",
-            "answer": "?????",
-            "relatedIds": ["faq-wdc", "faq-grievance"]
+            "question": "Is there support for differently abled students?",
+            "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students.\n\nMoreover, scribes are also allowed during exams to help such students.",
+            "relatedIds": ["faq-library-facilities"]
           }
         ]
       }
@@ -460,17 +290,17 @@
     "children": [
       {
         "id": "subcat-membership",
-        "question": "Membership",
+        "question": "1. Membership",
         "children": [
           {
             "id": "faq-library-card",
-            "question": "Library card",
+            "question": "How do I register for Library card?",
             "answer": "To obtain a library card, complete the admission process and visit the library desk along with your 2 passport size photos.",
             "relatedIds": ["faq-library-card-lost", "faq-books-allowed"]
           },
           {
             "id": "faq-library-card-lost",
-            "question": "Lost library card",
+            "question": "I have lost my library card. What should I do?",
             "answer": "To get a new library card, you have to submit an FIR copy along with an application and ₹20 as fine.",
             "relatedIds": ["faq-library-card", "faq-id-lost"]
           }
@@ -478,43 +308,31 @@
       },
       {
         "id": "subcat-borrowing",
-        "question": "Borrowing",
+        "question": "2. Borrowing",
         "children": [
           {
             "id": "faq-library-fine",
-            "question": "Library fine",
-            "answer": "₹1/per day, after assigned",
-            "relatedIds": ["faq-library-book-lost", "faq-issue-duration"]
+            "question": "How does the fine work for the issued book?",
+            "answer": "₹1/per day, applicable after assigned date",
+            "relatedIds": ["faq-library-book-lost"]
           },
           {
             "id": "faq-library-book-lost",
-            "question": "Lost issued book",
+            "question": "I lost the issued book. What should I do now?",
             "answer": "Purchase the latest edition of the same book and inform the library authority.",
             "relatedIds": ["faq-library-fine", "faq-item-lost"]
           },
           {
             "id": "faq-books-allowed",
-            "question": "Number of books allowed",
-            "answer": "?????",
-            "relatedIds": ["faq-issue-duration", "faq-library-card"]
-          },
-          {
-            "id": "faq-issue-duration",
-            "question": "Book issue duration",
-            "answer": "?????",
-            "relatedIds": ["faq-renewal", "faq-library-fine"]
+            "question": "What is the maximum number of books I can get issued at once?",
+            "answer": "You can issue 5 books max at once.",
+            "relatedIds": ["faq-library-card"]
           },
           {
             "id": "faq-renewal",
-            "question": "Renewal procedure",
-            "answer": "?????",
-            "relatedIds": ["faq-issue-duration", "faq-reservation"]
-          },
-          {
-            "id": "faq-reservation",
-            "question": "Reservation of books",
-            "answer": "?????",
-            "relatedIds": ["faq-renewal"]
+            "question": "What is the Renewal process for the library card?",
+            "answer": "Each year, every student is required to renew their library membership by visiting the library office",
+            "relatedIds": ["faq-library-card-lost", "faq-library-card"]
           }
         ]
       },
@@ -524,39 +342,21 @@
         "children": [
           {
             "id": "faq-library-timings",
-            "question": "Library timings",
+            "question": "What are the library timings?",
             "answer": "Mon to Fri: 9 AM to 5:30 PM\nSat: 9 AM to 4:30 PM\nClosed On Sundays and Holidays",
             "relatedIds": ["faq-office-timings", "faq-admin-timings"]
           },
           {
             "id": "faq-office-timings",
-            "question": "Issue counter timings",
+            "question": "When I can access the library office?",
             "answer": "Mon to Fri: 9:30 AM to 4 PM\nClosed On Weekends and Holidays",
             "relatedIds": ["faq-library-timings"]
           },
           {
             "id": "faq-library-facilities",
-            "question": "Library facilities",
-            "answer": "1. Access to 1 Lakh+ resources\n2. E-library facility on 1st floor\n3. Support for differently abled students\n4. E-resources access froARSD library website\n5. Access to WEBOPAC",
-            "relatedIds": ["faq-elibrary-access", "faq-diff-abled-services"]
-          },
-          {
-            "id": "faq-elibrary-access",
-            "question": "E-library access",
-            "answer": "?????",
-            "relatedIds": ["faq-remote-journals", "faq-library-facilities"]
-          },
-          {
-            "id": "faq-remote-journals",
-            "question": "Remote access to journals",
-            "answer": "?????",
-            "relatedIds": ["faq-elibrary-access"]
-          },
-          {
-            "id": "faq-printing-library",
-            "question": "Printing/scanning inside library",
-            "answer": "?????",
-            "relatedIds": ["faq-printing-service"]
+            "question": "What facilites does the ARSD Library provide?",
+            "answer": "1. Access to 1 Lakh+ resources\n2. E-library facility on 1st floor\n3. Support for differently abled students\n\n4. E-resources can be accessed through ARSD library website\n5. Access to WEBOPAC",
+            "relatedIds": ["faq-diff-abled-services"]
           }
         ]
       }
@@ -568,31 +368,31 @@
     "children": [
       {
         "id": "subcat-transport",
-        "question": "Transport",
+        "question": "1. Transport",
         "children": [
           {
             "id": "faq-connectivity",
-            "question": "Public transport",
-            "answer": "Yes. ARSD College is well-connected by the Delhi Metro, DTC buses, and auto-rickshaws, making commuting convenient for students.",
+            "question": "What are the various ways to reach college?",
+            "answer": "ARSD College is well-connected by the Delhi Metro, DTC buses, and auto-rickshaws, making commuting convenient for students.",
             "relatedIds": ["faq-travel-concessions", "faq-accomodation"]
           },
           {
             "id": "faq-parking-lot",
-            "question": "Parking",
+            "question": "Does the college has parking facilities?",
             "answer": "Yes but limited parking facilities may be available subject to college rules.",
-            "relatedIds": ["faq-connectivity"]
+            "relatedIds": ["faq-connectivity", "faq-accomodation"]
           },
           {
             "id": "faq-travel-concessions",
-            "question": "DTC bus pass",
-            "answer": "DTC Bus Form must be filled for Bus Pass. While there is no concessions for metro or other modes of transport.",
+            "question": "Are there any kind of concessions in the travel cost?",
+            "answer": "DTC Bus Form must be filled for Bus Pass. While there are no concessions for metro or other modes of transport.",
             "relatedIds": ["faq-connectivity"]
           }
         ]
       },
       {
         "id": "subcat-accommodation",
-        "question": "Accommodation & Nearby Facilities",
+        "question": "2. Accommodation & Nearby Facilities",
         "children": [
           {
             "id": "faq-accomodation",
@@ -602,55 +402,41 @@
           },
           {
             "id": "faq-printing-service",
-            "question": "Stationery & Printing",
-            "answer": "Yes! Printing services along with stationary items, are available near or within the campus.",
-            "relatedIds": ["faq-printing-library"]
-          },
-          {
-            "id": "faq-atm-nearby",
-            "question": "ATM nearby",
-            "answer": "?????",
-            "relatedIds": ["faq-bank-nearby"]
+            "question": "Is stationery & printing service available nearby?",
+            "answer": "Yes! Printing services along with stationary items, are available near and within the campus."
           },
           {
             "id": "faq-cafes-nearby",
-            "question": "Cafes nearby",
-            "answer": "?????",
+            "question": "Are there cafes nearby?",
+            "answer": "In the Satya Niketan market, students can visit various cafes and restaurants!",
             "relatedIds": ["faq-accomodation"]
           },
           {
-            "id": "faq-pharmacy-nearby",
-            "question": "Pharmacy nearby",
-            "answer": "?????",
-            "relatedIds": ["faq-medical-room"]
-          },
-          {
             "id": "faq-bank-nearby",
-            "question": "Bank nearby",
-            "answer": "?????",
-            "relatedIds": ["faq-atm-nearby"]
+            "question": "Are there any banking facilities nearby?",
+            "answer": "There is a Canara bank within the college campus. While you can find more banks in Satya Niketan"
           }
         ]
       },
       {
         "id": "subcat-societies",
-        "question": "Societies",
+        "question": "3. Societies",
         "children": [
           {
             "id": "faq-student-societies",
-            "question": "Join a society",
-            "answer": "Societies generally conduct recruitment drives at the beginning of the academic session. Students may apply according to the eligibility criteria and selection process of each society.",
+            "question": "How to join a society/club?",
+            "answer": "Societies generally conduct recruitment drives at the beginning of the academic session and circulate them on whatsapp groups.\n\n Students may apply according to the eligibility criteria and selection process of each society.",
             "relatedIds": ["faq-student-societies-multiple", "faq-student-societies-certificate"]
           },
           {
             "id": "faq-student-societies-multiple",
-            "question": "Join multiple societies",
+            "question": "Can I join multiple societies?",
             "answer": "Yes, as long as you can manage your attendance as well.",
             "relatedIds": ["faq-student-societies", "faq-attendance"]
           },
           {
             "id": "faq-student-societies-certificate",
-            "question": "Society certificates",
+            "question": "Will I get a society certificate?",
             "answer": "On the basis of active participation in meetings and involvement in events, you are guaranteed to get a certification.",
             "relatedIds": ["faq-student-societies"]
           }
@@ -658,97 +444,60 @@
       },
       {
         "id": "subcat-sports",
-        "question": "Sports",
-        "children": [
+        "question": "4. Sports",
+        "children": [ 
           {
             "id": "faq-sports-equipment",
-            "question": "Sports equipment",
+            "question": "Where I can get sports equipment?",
             "answer": "You can get it from the sports room by submitting your ID card.",
-            "relatedIds": ["faq-sports-facilities"]
+            "relatedIds": ["faq-sports-facilities", "faq-id-lost"]
           },
           {
             "id": "faq-sports-facilities",
-            "question": "Sports facilities",
-            "answer": "?????",
-            "relatedIds": ["faq-sports-equipment", "faq-gym-availability"]
-          },
-          {
-            "id": "faq-gym-availability",
-            "question": "Gym availability",
-            "answer": "?????",
-            "relatedIds": ["faq-sports-facilities"]
+            "question": "What sport facilities exist in college?",
+            "answer": "You can find Football, Cricket, Basketball, Volleyball, Badminton, Table Tennis and Carrom.",
+            "relatedIds": ["faq-sports-equipment"]
           }
         ]
       },
       {
         "id": "subcat-events",
-        "question": "Events",
+        "question": "5. Events",
         "children": [
           {
-            "id": "faq-organize-events",
-            "question": "Can students organize events?",
-            "answer": "?????",
-            "relatedIds": ["faq-annual-fest-date"]
-          },
-          {
             "id": "faq-annual-fest-date",
-            "question": "Annual fest",
+            "question": "When is the annual fest of ARSD?",
             "answer": "The annual fest, TIDE, usually happens around the first or second week of March.",
-            "relatedIds": ["faq-student-societies", "faq-organize-events"]
+            "relatedIds": ["faq-student-societies"]
           },
           {
             "id": "faq-student-union-election",
-            "question": "Student elections",
+            "question": "When are the student elections?",
             "answer": "The student election starts around September.",
             "relatedIds": ["faq-annual-fest-date"]
           },
           {
-            "id": "faq-freshers-event",
-            "question": "Freshers' event",
-            "answer": "?????",
-            "relatedIds": ["faq-orientation-prog", "faq-annual-fest-date"]
-          },
-          {
-            "id": "faq-orientation-prog",
-            "question": "Orientation programme",
-            "answer": "?????",
-            "relatedIds": ["faq-freshers-event", "faq-student-societies"]
+            "id": "faq-other-events",
+            "question": "How can I know about other events of the college?",
+            "answer": "All information related to upcoming events is circulated through whatsapp groups."
           }
         ]
       },
       {
         "id": "subcat-placements",
-        "question": "Placements & Career",
+        "question": "6.Placements & Career",
         "children": [
           {
             "id": "faq-placement-cell",
             "question": "Does the college have a placement cell?",
-            "answer": "?????",
-            "relatedIds": ["faq-register-placements", "faq-internships-provided"]
-          },
-          {
-            "id": "faq-register-placements",
-            "question": "How do I register for placements?",
-            "answer": "?????",
-            "relatedIds": ["faq-placement-cell", "faq-career-counselling"]
+            "answer": "Yes, the college has a placement cell which holds yearly internship drives.",
+            "relatedIds": ["faq-internships-provided"]
           },
           {
             "id": "faq-internships-provided",
             "question": "Are internships provided?",
-            "answer": "?????",
+            "answer": "College doesn't provide internships directly. Instead, the placement cell of ARSD holds yearly internship drives for the students.",
             "relatedIds": ["faq-internship-verification", "faq-internship-documents"]
-          },
-          {
-            "id": "faq-internship-verification",
-            "question": "How do I get internship verification?",
-            "answer": "?????",
-            "relatedIds": ["faq-internships-provided", "faq-internship-documents"]
-          },
-          {
-            "id": "faq-career-counselling",
-            "question": "Are career counselling sessions conducted?",
-            "answer": "?????",
-            "relatedIds": ["faq-placement-cell"]
           }
         ]
       }
