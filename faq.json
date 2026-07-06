@@ -278,7 +278,7 @@
             "id": "faq-diff-abled-services",
             "question": "Is there support for differently abled students?",
             "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students.\n\nMoreover, scribes are also allowed during exams to help such students.",
-            "relatedIds": ["faq-library-facilities"]
+            "relatedIds": ["faq-library-diff-abled-services"]
           }
         ]
       }
@@ -325,7 +325,7 @@
           {
             "id": "faq-books-allowed",
             "question": "What is the maximum number of books I can get issued at once?",
-            "answer": "You can issue 5 books max at once.",
+            "answer": "Prog. Courses: 3 books\nHons. Courses: 4 books\nMasters Courses: 5 books",
             "relatedIds": ["faq-library-card"]
           },
           {
@@ -338,7 +338,7 @@
       },
       {
         "id": "subcat-lib-facilities",
-        "question": "Facilities",
+        "question": "3. Facilities",
         "children": [
           {
             "id": "faq-library-timings",
@@ -355,7 +355,13 @@
           {
             "id": "faq-library-facilities",
             "question": "What facilites does the ARSD Library provide?",
-            "answer": "1. Access to 1 Lakh+ resources\n2. E-library facility on 1st floor\n3. Support for differently abled students\n\n4. E-resources can be accessed through ARSD library website\n5. Access to WEBOPAC",
+            "answer": "1. Access to 1 Lakh+ resources\n2. E-library facility on 1st floor\n\n3. E-resources can be accessed through ARSD library website\n4. Access to WEBOPAC",
+            "relatedIds": ["faq-library-diff-abled-services", "faq-diff-abled-services"]
+          },
+          {
+            "id": "faq-library-diff-abled-services",
+            "question": "What is the library offering for differently abled students?",
+            "answer": "1. 10 Computers with INDO-NVDIA Software, enables screen reading\n2. Two KIBO XS 2024 Software\n3. Two LUNA Z00MAX 6\n4. DAISY Reader\n5.Angel India Device\n6. Two wheelchairs with staff support\n7. Laptop Issue for semester\n8. CDs\n9. Delhi University Braille Library Membership",
             "relatedIds": ["faq-diff-abled-services"]
           }
         ]
@@ -485,7 +491,7 @@
       },
       {
         "id": "subcat-placements",
-        "question": "6.Placements & Career",
+        "question": "6. Placements & Career",
         "children": [
           {
             "id": "faq-placement-cell",
@@ -498,6 +504,30 @@
             "question": "Are internships provided?",
             "answer": "College doesn't provide internships directly. Instead, the placement cell of ARSD holds yearly internship drives for the students.",
             "relatedIds": ["faq-internship-verification", "faq-internship-documents"]
+          }
+        ]
+      },
+      {
+        "id": "subcat-placements",
+        "question": "7. Fees & Scholarships",
+        "children": [
+          {
+            "id": "faq-fee-concession",
+            "question": "How can I avail fee concession?",
+            "answer": "At the beginning of each academic session, an online form regarding fee concession and book aid is circulated through Notices. It is recommended to submit the application with appropriate documents like income certificate and other records.\n\nShortlisted applicants are invited for a personal interaction with the board members. The financial assistance is provided to eligible students on the basis of merit-cum-means, subject to the availability of funds.",
+            "relatedIds": ["faq-fee-fail", "faq-exam-fee-fail"]
+          },
+          {
+            "id": "faq-fee-fail",
+            "question": "What if I failed to submit the fees?",
+            "answer": "Be ready for the consequences. The appropriate action includes restriction of access to college facilites and services as per college regulations.",
+            "relatedIds": ["faq-fee-concession", "faq-id-lost"]
+          },
+          {
+            "id": "faq-exam-fee-fail",
+            "question": "I forgot to pay the exam fee. What to do?",
+            "answer": "There's nothing you can do. You won't be permitted to appear in examinations and no request regarding special consideration shall be entertained by the college.",
+            "relatedIds": ["faq-fee-concession", "faq-fee-fail"]
           }
         ]
       }
