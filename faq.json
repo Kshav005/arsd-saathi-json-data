@@ -130,7 +130,13 @@
             "id": "faq-admit-card-download",
             "question": "From where I can download my admit card?",
             "answer": "Your admit card will be issued through the SLC examination portal as per the notified schedule.",
-            "relatedIds": ["faq-academic-calendar", "faq-admit-card-download", "faq-exam-centre"]
+            "relatedIds": ["faq-exam-fee-fail", "faq-academic-calendar", "faq-admit-card-download", "faq-exam-centre"]
+          },
+          {
+            "id": "faq-exam-fee-fail",
+            "question": "I forgot to pay the exam fee. What to do?",
+            "answer": "There's nothing you can do. You won't be permitted to appear in examinations and no request regarding special consideration shall be entertained by the college.",
+            "relatedIds": ["faq-fee-concession", "faq-fee-fail"]
           },
           {
             "id": "faq-exam-centre",
@@ -188,14 +194,33 @@
         "children": [
           {
             "id": "faq-admin-timings",
-            "question": "Admin office timings",
+            "question": "What are the admin office timings?",
             "answer": "10 AM to 4 PM",
-            "relatedIds": ["faq-office-timings", "faq-library-timings"]
+            "relatedIds": ["faq-fee-fail", "faq-admission-cancel", "faq-library-timings", "faq-library-timings"]
           },
           {
-            "id": "faq-miss-fee-deadline",
-            "question": "What happens if I miss the fee deadline?",
-            "answer": "?????"
+            "id": "faq-admission-cancel",
+            "question": "How do I withdraw my admission?",
+            "answer": "You need to submit an application in the college office or through email on principal.arsdcollege@gmail.com. The requirements include -\n\n1. A valid reason\n2. No dues clearance from library, department lab, accounts and sports.",
+            "relatedIds": ["faq-college-migration", "faq-fee-concession"]
+          },
+          {
+            "id": "faq-college-migration",
+            "question": "How to apply for inter college migration?",
+            "answer": "You need to submit an application in the college office once notification regarding the same is released by the University.\n\nThe requirements are -\n1. You must be in second year.\n2. Maintain a great CGPA.\n3. Availability of seat in the desired course of the desired college.",
+            "relatedIds": ["faq-college-migration", "faq-admin-timings"]
+          },
+          {
+            "id": "faq-fee-concession",
+            "question": "How can I avail fee concession?",
+            "answer": "At the beginning of each academic session, an online form regarding fee concession and book aid is circulated through Notices. It is recommended to submit the application with appropriate documents like income certificate and other records.\n\nShortlisted applicants are invited for a personal interaction with the board members. The financial assistance is provided to eligible students on the basis of merit-cum-means, subject to the availability of funds.",
+            "relatedIds": ["faq-fee-fail", "faq-exam-fee-fail"]
+          },
+          {
+            "id": "faq-fee-fail",
+            "question": "What if I failed to submit the fees?",
+            "answer": "Be ready for the consequences. The appropriate action includes restriction of access to college facilites and services as per college regulations.",
+            "relatedIds": ["faq-fee-concession", "faq-id-lost"]
           },
           {
             "id": "faq-visitors-allowed",
@@ -402,7 +427,7 @@
         "children": [
           {
             "id": "faq-accomodation",
-            "question": "PG/Hostel nearby",
+            "question": "Are there any PG or hostels nearby?",
             "answer": "Several private PGs, hostels, and rental accommodations are available near the college.",
             "relatedIds": ["faq-connectivity", "faq-cafes-nearby"]
           },
@@ -504,30 +529,6 @@
             "question": "Are internships provided?",
             "answer": "College doesn't provide internships directly. Instead, the placement cell of ARSD holds yearly internship drives for the students.",
             "relatedIds": ["faq-internship-verification", "faq-internship-documents"]
-          }
-        ]
-      },
-      {
-        "id": "subcat-placements",
-        "question": "7. Fees & Scholarships",
-        "children": [
-          {
-            "id": "faq-fee-concession",
-            "question": "How can I avail fee concession?",
-            "answer": "At the beginning of each academic session, an online form regarding fee concession and book aid is circulated through Notices. It is recommended to submit the application with appropriate documents like income certificate and other records.\n\nShortlisted applicants are invited for a personal interaction with the board members. The financial assistance is provided to eligible students on the basis of merit-cum-means, subject to the availability of funds.",
-            "relatedIds": ["faq-fee-fail", "faq-exam-fee-fail"]
-          },
-          {
-            "id": "faq-fee-fail",
-            "question": "What if I failed to submit the fees?",
-            "answer": "Be ready for the consequences. The appropriate action includes restriction of access to college facilites and services as per college regulations.",
-            "relatedIds": ["faq-fee-concession", "faq-id-lost"]
-          },
-          {
-            "id": "faq-exam-fee-fail",
-            "question": "I forgot to pay the exam fee. What to do?",
-            "answer": "There's nothing you can do. You won't be permitted to appear in examinations and no request regarding special consideration shall be entertained by the college.",
-            "relatedIds": ["faq-fee-concession", "faq-fee-fail"]
           }
         ]
       }
