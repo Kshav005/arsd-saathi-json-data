@@ -230,26 +230,8 @@
         ]
       },
       {
-        "id": "subcat-documents",
-        "question": "2. Documents",
-        "children": [
-          {
-            "id": "faq-internship-documents",
-            "question": "How can I obtain an LOR?",
-            "answer": "Visit the admin office after writing an application along with your recent marksheet copy.",
-            "relatedIds": ["faq-admin-timings"]
-          },
-          {
-            "id": "faq-migration-cert",
-            "question": "Migration certificate",
-            "answer": "?????",
-            "relatedIds": ["faq-withdraw-admission"]
-          }
-        ]
-      },
-      {
         "id": "subcat-it-services",
-        "question": "3. IT Services",
+        "question": "2. IT Services",
         "children": [
           {
             "id": "faq-email-help",
@@ -285,7 +267,7 @@
       },
       {
         "id": "subcat-lost-found-support",
-        "question": "4. Lost & Found & Student Support",
+        "question": "3. Lost & Found & Student Support",
         "children": [
           {
             "id": "faq-item-lost",
@@ -526,9 +508,15 @@
           },
           {
             "id": "faq-internships-provided",
-            "question": "Are internships provided?",
-            "answer": "College doesn't provide internships directly. Instead, the placement cell of ARSD holds yearly internship drives for the students.",
-            "relatedIds": ["faq-internship-verification", "faq-internship-documents"]
+            "question": "Are internships provided by the college?",
+            "answer": "ARSD provides Principle Internship (PAIS) to eligible students accross the campus. Moreover, the University of Delhi provides Vice Chancellor Internship (VCIS).\n\nAlso, the placement cell of ARSD holds yearly internship drives for the students. So make sure to join their whatsapp group!",
+            "relatedIds": ["faq-pais-internship", "faq-admin-timings"]
+          },
+          {
+            "id": "faq-pais-internship",
+            "question": "What is PAIS?",
+            "answer": "Principle ARSD Internship Scheme (PAIS) provides opportunities to eligible students accross the campus.\n\nThe internship is of 2 months with ₹2000 stipend. Working hours usually go from 6 hours with one lunch break, and holidays on Weekends. The procedure is followed just like the VCIS by going through interview with the board members. \n\nTo be eligible -\n1. Your attendance must be above 67%\n2. CGPA should be above 7.",
+            "relatedIds": ["faq-placement-cell", "faq-internship-documents"]
           }
         ]
       }
