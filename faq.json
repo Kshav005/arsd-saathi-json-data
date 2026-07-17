@@ -230,7 +230,7 @@
         ]
       },
       {
-        "id": "subcat-it-services",
+        "id": "subcat-services",
         "question": "2. IT Services",
         "children": [
           {
@@ -267,7 +267,7 @@
       },
       {
         "id": "subcat-lost-found-support",
-        "question": "3. Lost & Found & Student Support",
+        "question": "3. Lost Items & Student Support",
         "children": [
           {
             "id": "faq-item-lost",
@@ -280,6 +280,12 @@
             "question": "Lost college ID",
             "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR.",
             "relatedIds": ["faq-item-lost", "faq-library-card-lost"]
+          },
+          {
+            "id": "faq-girls-common-room",
+            "question": "What facilities do I get in GCR?",
+            "answer": "Girls Common Room (GCR) is an AC room containing well furnished sofa, chairs and tables. Along with female staff support, washrooms, lockers, and Sanitary Pad Vending Machines.",
+            "relatedIds": ["faq-diff-abled-services"]
           },
           {
             "id": "faq-diff-abled-services",
