@@ -1,8 +1,32 @@
 {
-    "STUDENT_PORTAL_URL": "https://www.arsdcollege.in/Internet/Student/Login.aspx",
-    "STUDENT_BASIC_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/STD_Basic_Details.aspx",
-    "STUDENT_MENTOR_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Mentor_Details.aspx",
-    "STUDENT_FACULTY_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Check_Student_Faculty_Details.aspx",
-    "STUDENT_ATTENDANCE_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Attendance_Report_Monthly.aspx",
-    "NOTICES_URL": "https://arsdcollege.ac.in/announcement-2/"
+  "STUDENT_PORTAL_URL": "https://www.arsdcollege.in/Internet/Student/Login.aspx",
+  "STUDENT_BASIC_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/STD_Basic_Details.aspx",
+  "STUDENT_MENTOR_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Mentor_Details.aspx",
+  "STUDENT_FACULTY_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Check_Student_Faculty_Details.aspx",
+  "STUDENT_ATTENDANCE_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Attendance_Report_Monthly.aspx",
+  "NOTICES_URL": "https://arsdcollege.ac.in/announcement-2/",
+    
+  "KESHAV_URL": "https://kshavcode.me",
+  "SHIVAM_URL": "https://github.com/SHIVAMY007",
+    
+  "TERMS_URL": "https://github.com/KshavCode/arsd-saathi-app/blob/master/TERMS.md",
+  "PRIVACY_URL": "https://github.com/KshavCode/arsd-saathi-app/blob/master/PRIVACY.md",
+  "SOCIETIES_URL": "https://arsdcollege.ac.in/student-societies/",
+  "FEES_PORTAL_URL": "http://www.arsdcollege.in/OnlinePayment_ARSD/Student_Login.aspx",
+  "FEE_STRUCTURE_URL": "https://arsdcollege.ac.in/fee-structure/",
+  "HANDBOOK_URL": "https://arsdcollege.ac.in/wp-content/uploads/2024/08/Student%20Handbook%202024-25.pdf",
+  "LIBRARY_URL": "https://library.arsdcollege.ac.in/",
+  "SAMARTH_URL": "https://slc.uod.ac.in/",
+  "CHANGELOG_URL": "https://github.com/KshavCode/arsd-saathi-app/blob/master/CHANGELOG.md",
+  "GENERATE_PASSWORD_URL": "https://www.arsdcollege.in/Internet/Student/Login_Password_Generator.aspx",
+  "REPOSITORY_URL": "https://github.com/KshavCode/arsd-saathi-app",
+  "FAQ_URL": "https://raw.githubusercontent.com/Kshav005/arsd-saathi-json-data/main/faq.json",
+  "DEV_MESSAGE_URL": "https://raw.githubusercontent.com/Kshav005/arsd-saathi-json-data/main/message.json",
+  "WEBSITE_JSON_URL": "https://raw.githubusercontent.com/Kshav005/arsd-saathi-json-data/main/website.json",
+    
+  "FACEBOOK_LINK": "https://www.facebook.com/share/1BgSTVqEyi/",
+  "INSTAGRAM_LINK": "https://www.instagram.com/_arsdcollege_?igsh=MTVscGV3Z204cGtoNg==",
+  "LINKEDIN_LINK": "https://www.linkedin.com/school/atma-ram-sanatan-dharma-college/",
+  "YOUTUBE_LINK": "https://youtube.com/@arsdcollegeuniversityofdel4142?si=8ltT2SdiBh94JtuZ",
+  "X_LINK": "https://x.com/arsdcollegedu"
 }
