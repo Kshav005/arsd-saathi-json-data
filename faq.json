@@ -214,7 +214,7 @@
             "id": "faq-fee-concession",
             "question": "How can I avail fee concession?",
             "answer": "At the beginning of each academic session, an online form regarding fee concession and book aid is circulated through Notices. It is recommended to submit the application with appropriate documents like income certificate and other records.\n\nShortlisted applicants are invited for a personal interaction with the board members. The financial assistance is provided to eligible students on the basis of merit-cum-means, subject to the availability of funds.",
-            "relatedIds": ["faq-fee-fail", "faq-exam-fee-fail"]
+            "relatedIds": ["faq-nsp-documents", "faq-fee-fail", "faq-exam-fee-fail"]
           },
           {
             "id": "faq-fee-fail",
@@ -386,8 +386,44 @@
     "question": "🚍 Student Life",
     "children": [
       {
+        "id": "subcat-scholarship",
+        "question": "1. Scholarship",
+        "children": [
+          {
+            "id": "faq-nsp-documents",
+            "question": "What are the required documents for NSP?",
+            "answer": "- Aadhar Card, Passport sized photo\n- Income certificate, Bank Passbook\n- Previous Marksheet, Admission certificate\n- Disability / Caste / Domicile certificate (if applic.)",
+            "relatedIds": ["faq-rejection", "faq-more-scholarship"]
+          },
+          {
+            "id": "faq-kalyan-documents",
+            "question": "What are the required documents for E-Kalyan Jharkhand?",
+            "answer": "- Aadhar Card, Passport sized photo\n- Bank Passbook\n- Previous Marksheet\n- Income, Caste, Domicile certificate ",
+            "relatedIds": ["faq-rejection", "faq-nsp-documents"]
+          },
+          {
+            "id": "faq-district-documents",
+            "question": "What are the required documents for E-District Delhi?",
+            "answer": "- Aadhar Card, Passport sized photo\n- Bank Passbook\n- Previous Marksheet\n- Income, Caste, Domicile certificate ",
+            "relatedIds": ["faq-rejection", "faq-more-scholarship"]
+          },
+          {
+            "id": "faq-rejection",
+            "question": "What are possible reasons for rejection?",
+            "answer": "Incorrect info, Unreadable documents, expired income or caste certificate and bank details mismatch",
+            "relatedIds": ["faq-travel-concessions", "faq-accomodation"]
+          },
+          {
+            "id": "faq-more-scholarship",
+            "question": "Can I apply for more than one scholarships?",
+            "answer": "No, it is not possible to enlist under more than two or more scholarships.",
+            "relatedIds": [""]
+          }
+        ]
+      },
+      {
         "id": "subcat-transport",
-        "question": "1. Transport",
+        "question": "2. Transport",
         "children": [
           {
             "id": "faq-connectivity",
@@ -411,7 +447,7 @@
       },
       {
         "id": "subcat-accommodation",
-        "question": "2. Accommodation & Nearby Facilities",
+        "question": "3. Accommodation & Nearby Facilities",
         "children": [
           {
             "id": "faq-accomodation",
@@ -439,7 +475,7 @@
       },
       {
         "id": "subcat-societies",
-        "question": "3. Societies",
+        "question": "4. Societies",
         "children": [
           {
             "id": "faq-student-societies",
@@ -463,7 +499,7 @@
       },
       {
         "id": "subcat-sports",
-        "question": "4. Sports",
+        "question": "5. Sports",
         "children": [ 
           {
             "id": "faq-sports-equipment",
@@ -481,7 +517,7 @@
       },
       {
         "id": "subcat-events",
-        "question": "5. Events",
+        "question": "6. Events",
         "children": [
           {
             "id": "faq-annual-fest-date",
@@ -504,7 +540,7 @@
       },
       {
         "id": "subcat-placements",
-        "question": "6. Placements & Career",
+        "question": "7. Placements & Career",
         "children": [
           {
             "id": "faq-placement-cell",
