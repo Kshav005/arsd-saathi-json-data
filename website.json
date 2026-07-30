@@ -1,5 +1,5 @@
 {
-    "STUDENT_PORTAL_URL": "https://www.arsdcollege.in/Internet/Student/Login.aspx",
+    "STUDENT_PORTAL_URL": "https://arsdcollege.in/Internet/Student/Login.aspx",
     "STUDENT_BASIC_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/STD_Basic_Details.aspx",
     "STUDENT_MENTOR_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Mentor_Details.aspx",
     "STUDENT_FACULTY_DETAILS_URL": "https://www.arsdcollege.in/Internet/Student/Check_Student_Faculty_Details.aspx",
