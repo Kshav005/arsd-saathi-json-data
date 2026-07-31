@@ -1,4 +1,5 @@
 {
+  "STUDENT_PORTAL_URL": "https://arsdcollege.in/Internet/Student/Login.aspx",
   "SOCIETIES_URL": "https://arsdcollege.ac.in/student_societies.aspx",
   "FEES_PORTAL_URL": "http://www.arsdcollege.in/OnlinePayment_ARSD/Student_Login.aspx",
   "FEE_STRUCTURE_URL": "https://arsdcollege.ac.in/pdf/Undergraduate%20Fee%20Structure2026-27%20.pdf",
