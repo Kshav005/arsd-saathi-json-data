@@ -1,5 +1,5 @@
 {
-  "active_version": 1,
+  "active_version": 2,
   "versions": {
     "1": {
       "name": "Current ASP.NET Portal",
@@ -51,7 +51,7 @@
           "table_id": "gvshow"
         },
         "redirect": {
-          "path_match": "Home.aspx"
+          "path_match": "Update_Mandatory_Basic_Details.aspx"
         }
       }
     }
