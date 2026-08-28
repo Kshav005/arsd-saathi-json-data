@@ -51,6 +51,60 @@
           "table_id": "gvshow"
         },
         "redirect": {
+          "path_match": "Home.aspx"
+        }
+      }
+    },
+    "2": {
+      "name": "Current ASP.NET Portal",
+      "routes": {
+        "login": {
+          "path_match": "login",
+          "fields": {
+            "roll_input": "txtrollno",
+            "name_input": "txtname",
+            "pass_input": "txtpassword",
+            "submit_btn": "btnsearch"
+          }
+        },
+        "basic_details": {
+          "path_match": "STD_Basic_Details.aspx",
+          "wait_for": "lbleno",
+          "fields": {
+            "enrollmentNumber": "lbleno",
+            "name": "lblname",
+            "rollNo": "lblrollno",
+            "fatherName": "lblfname",
+            "courseCode": "lblcoursecode",
+            "courseName": "lblcoursename",
+            "part": "lblpart",
+            "sem": "lblsem",
+            "mobile": "lblmobileno",
+            "email": "lblemail",
+            "address": "lbladdress_local"
+          }
+        },
+        "mentor": {
+          "path_match": "Mentor_Details.aspx",
+          "wait_for": "lblmentor_name",
+          "fields": {
+            "mentor": "lblmentor_name"
+          }
+        },
+        "attendance": {
+          "path_match": "Attendance_Report_Monthly.aspx",
+          "dropdown_id": "ddlpapertype",
+          "search_btn_id": "btnsearch",
+          "table_id": "gvshow",
+          "percent_label_id": "lbl_percentage",
+          "theory_val": "'TE'",
+          "practical_val": "'PE'"
+        },
+        "faculty": {
+          "path_match": "Check_Student_Faculty_Details.aspx",
+          "table_id": "gvshow"
+        },
+        "redirect": {
           "path_match": "Update_Mandatory_Basic_Details.aspx"
         }
       }
