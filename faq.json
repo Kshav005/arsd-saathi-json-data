@@ -63,7 +63,7 @@
           {
             "id": "faq-ge-minor-help",
             "question": "How can I obtain a minor degree through GE?",
-            "answer": "1. Opt for 4th year of your UG programme.\n2. Select GE subjects from the same domain in 7 semesters of your course.",
+            "answer": "1. Pick GE subjects from the same domain across all 7 semesters of your course.\n2. Choose the 4th year of your undergraduate programme.",
             "relatedIds": ["faq-nep-info", "faq-ge-info", "faq-major-minor-diff"]
           },
           {
@@ -135,13 +135,13 @@
           {
             "id": "faq-exam-fee-fail",
             "question": "I forgot to pay the exam fee. What to do?",
-            "answer": "There's nothing you can do. You won't be permitted to appear in examinations and no request regarding special consideration shall be entertained by the college.",
+            "answer": "You cannot take any action. The college will not allow you to sit for exams and will reject any appeals.",
             "relatedIds": ["faq-fee-concession", "faq-fee-fail"]
           },
           {
             "id": "faq-exam-centre",
             "question": "In which exam centre I have to go?",
-            "answer": "For all subjects, the exam is conducted in your respective college!",
+            "answer": "For all the subjects, the exam is conducted in your respective college!",
             "relatedIds": ["faq-admit-card-download"]
           }
         ]
@@ -165,7 +165,7 @@
           {
             "id": "faq-download-marksheet",
             "question": "How can I download my marksheet?",
-            "answer": "You can download your marksheet on the SLC portal once declared.",
+            "answer": "You can download your marksheet on the SLC portal, once declared.",
             "relatedIds": ["faq-results-declared"]
           },
           {
@@ -177,7 +177,7 @@
           {
             "id": "faq-improvement-exam",
             "question": "What is improvement examination?",
-            "answer": "In order to improve grades in the last result, you are given an option to file for re-examination in order to achieve a better result.",
+            "answer": "To boost your grades from the previous results, you have the option to apply for re-examination and achieve a stronger outcome.",
             "relatedIds": ["faq-backlog-exam", "faq-results-declared"]
           }
         ]
@@ -201,7 +201,7 @@
           {
             "id": "faq-admission-cancel",
             "question": "How do I withdraw my admission?",
-            "answer": "You need to submit an application in the college office or through email on principal.arsdcollege@gmail.com. The requirements include -\n\n1. A valid reason\n2. No dues clearance from library, department lab, accounts and sports.",
+            "answer": "Submit your application to the college office in person or send it via email to principal.arsdcollege@gmail.com. \n\nYou must provide -\n1. A legitimate justification\n2. Clearance certificates confirming no outstanding dues from the library, department lab, accounts department, and sports facility.",
             "relatedIds": ["faq-college-migration", "faq-fee-concession"]
           },
           {
@@ -213,13 +213,13 @@
           {
             "id": "faq-fee-concession",
             "question": "How can I avail fee concession?",
-            "answer": "At the beginning of each academic session, an online form regarding fee concession and book aid is circulated through Notices. It is recommended to submit the application with appropriate documents like income certificate and other records.\n\nShortlisted applicants are invited for a personal interaction with the board members. The financial assistance is provided to eligible students on the basis of merit-cum-means, subject to the availability of funds.",
+            "answer": "At the start of every academic term, an online form for fee concession and book aid is distributed via Notices. You should submit your application along with required documents such as an income certificate and supporting records.\n\nSelected applicants are called for a one-on-one meeting with board members. Eligible students receive financial support based on merit-cum-means criteria, depending on fund availability.",
             "relatedIds": ["faq-nsp-documents", "faq-fee-fail", "faq-exam-fee-fail"]
           },
           {
             "id": "faq-fee-fail",
             "question": "What if I failed to submit the fees?",
-            "answer": "Be ready for the consequences. The appropriate action includes restriction of access to college facilites and services as per college regulations.",
+            "answer": "This involves limiting your access to college facilities and services in accordance with institutional policies.",
             "relatedIds": ["faq-fee-concession", "faq-id-lost"]
           },
           {
@@ -284,13 +284,13 @@
           {
             "id": "faq-girls-common-room",
             "question": "What facilities do I get in GCR?",
-            "answer": "Girls Common Room (GCR) is an AC room containing well furnished sofa, chairs and tables. Along with female staff support, washrooms, lockers, and Sanitary Pad Vending Machines.",
+            "answer": "The Girls Common Room is an air-conditioned space equipped with comfortable sofas, chairs, and tables. It also features female staff assistance, restrooms, storage lockers, and sanitary pad dispensers.",
             "relatedIds": ["faq-diff-abled-services"]
           },
           {
             "id": "faq-diff-abled-services",
             "question": "Is there support for differently abled students?",
-            "answer": "Yes, various ramps, facilities and faculty members are available throughout the campus to help such students.\n\nMoreover, scribes are also allowed during exams to help such students.",
+            "answer": "Yes, the campus provides multiple ramps, facilities, and staff members to support these students.\n\nAdditionally, exam scribes are permitted to assist these students during testing.",
             "relatedIds": ["faq-library-diff-abled-services"]
           }
         ]
@@ -308,13 +308,13 @@
           {
             "id": "faq-library-card",
             "question": "How do I register for Library card?",
-            "answer": "To obtain a library card, complete the admission process and visit the library desk along with your 2 passport size photos.",
+            "answer": "To get a library card, finish the admission process and bring 2 passport-sized photos when you visit the library desk.",
             "relatedIds": ["faq-library-card-lost", "faq-books-allowed"]
           },
           {
             "id": "faq-library-card-lost",
             "question": "I have lost my library card. What should I do?",
-            "answer": "To get a new library card, you have to submit an FIR copy along with an application and ₹20 as fine.",
+            "answer": "To get a new library card, you are required to submit an FIR copy along with an application and ₹20 as fine.",
             "relatedIds": ["faq-library-card", "faq-id-lost"]
           }
         ]
@@ -551,7 +551,7 @@
           {
             "id": "faq-internships-provided",
             "question": "Are internships provided by the college?",
-            "answer": "ARSD provides Principle Internship (PAIS) to eligible students accross the campus. Moreover, the University of Delhi provides Vice Chancellor Internship (VCIS).\n\nAlso, the placement cell of ARSD holds yearly internship drives for the students. So make sure to join their whatsapp group!",
+            "answer": "ARSD offers the Principle Internship (PAIS) program to qualified students throughout the campus. Additionally, the University of Delhi administers the Vice Chancellor Internship (VCIS).\n\nThe placement cell at ARSD also organizes annual internship drives for students. Be sure to join their WhatsApp group to stay informed!",
             "relatedIds": ["faq-pais-internship"]
           },
           {
