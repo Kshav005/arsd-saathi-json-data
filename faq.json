@@ -10,7 +10,7 @@
           {
             "id": "faq-academic-calendar",
             "question": "Where can I find the academic calendar?",
-            "answer": "The latest academic calendar and the Holiday list is available on the official University of Delhi website.",
+            "answer": "You can find the current academic calendar and holiday schedule on the University of Delhi's official website.",
             "relatedIds": ["faq-annual-fest-date"]
           },
           {
@@ -22,30 +22,30 @@
           {
             "id": "faq-teach-language",
             "question": "Are classes conducted in English or Hindi?",
-            "answer": "Mainly in Hindi but also depending on the course and University guidelines.",
+            "answer": "Primarily in Hindi, though the specific language requirements may vary based on the course content and institutional policies of the university.",
             "relatedIds": ["faq-course-syllabus", "faq-aec-info"]
           },
           {
             "id": "faq-major-minor-diff",
             "question": "What is the difference between Major and Minor?",
-            "answer": "Major is the primary domain on which your core subjects are based on. \n\nWhile Minor is an additional subject from different domain, taken alongside the Major by choosing appropriate GE.",
+            "answer": "Your Major represents the primary domain that forms the foundation of your core coursework.\n\nYour Minor is a supplementary subject from a different domain that you pursue alongside your Major by selecting suitable GE courses.",
             "relatedIds": ["faq-ge-minor-help"]
           },
           {
             "id": "faq-internal-assessments",
             "question": "How are internal assessments conducted?",
-            "answer": "Internal marks are awarded by practical exams, VIVAs, assignments, attendance and activeness in class."
+            "answer": "Internal marks are determined through practical examinations, Viva, coursework submissions, class attendance, and classroom participation."
           },
           {
             "id": "faq-fourth-year-diff",
             "question": "What is the difference between dissertation, academics and entrepreneurship?",
-            "answer": "1. Dissertation: Research to be done alone\n2. Academics: Research to be done in a group\n3. Entrepreneurship: Build a startup from scratch along with financial planning and MVP.",
+            "answer": "1. Dissertation: Independent research conducted solo\n\n2. Academics: Collaborative research performed as a team\n\n3. Entrepreneurship: Launch a startup from the ground up, including financial strategy and minimum viable product development.",
             "relatedIds": ["faq-nep-info", "faq-ge-minor-help"]
           },
           {
             "id": "faq-course-syllabus",
             "question": "Where can I see my course syllabus?",
-            "answer": "The syllabus is shared via assigned teachers or can be found online.",
+            "answer": "Teachers distribute the syllabus, or you can access it online on the DU website.",
             "relatedIds": ["faq-academic-calendar", "faq-major-minor-diff"]
           }
         ]
@@ -57,7 +57,7 @@
           {
             "id": "faq-ge-info",
             "question": "What is GE?",
-            "answer": "Benefits of taking GE (General Elective) include:\n1. Helps in earning minor degree in other domain.\n2. A student is allowed to switch fields for postgraduate studies.\n\n3. If your core subjects are challenging, picking scoring or interesting GE subjects can boost your overall SGPA.",
+            "answer": "It is a subject that must be selected from a discipline outside your current enrollment. \n\nTaking a GE offers several advantages:\n1. Contributes toward earning a minor degree in an alternative field.\n2. Enables students to transition to different fields for postgraduate education.\n3. When core subjects prove difficult, choosing GE courses that are easier or more engaging can improve your overall SGPA.",
             "relatedIds": ["faq-ge-minor-help", "faq-change-other-electives"]
           },
           {
@@ -69,7 +69,7 @@
           {
             "id": "faq-aec-info",
             "question": "What AEC subject will I get?",
-            "answer": "You cannot choose. The college will alternatively assign you either EVS or your mother tongue language",
+            "answer": "You don't have a choice in this matter. The college will randomly give you either EVS or whichever language you picked.",
             "relatedIds": ["faq-change-other-electives", "faq-teach-language"]
           },
           {
@@ -87,7 +87,7 @@
           {
             "id": "faq-change-other-electives",
             "question": "Can I change my GE/AEC/SEC/VAC?",
-            "answer": "By visiting the admin office, you can get your answer!",
+            "answer": "While generally not permitted, exceptions can be made through the admin office for special circumstances.\n\nYou can only modify your selection within a few weeks following your elective assignment.",
             "relatedIds": ["faq-aec-info", "faq-admin-timings"]
           }
         ]
@@ -111,7 +111,7 @@
           {
             "id": "faq-attendance-low",
             "question": "I want to get my admit card stamped. What to do when I have below 67% attendance?",
-            "answer": "1. If it is below 67% and above 40%, then you are required to submit an undertaking.\n2. If it is below 40%, then affidavit + undertaking is required.\n3. Below 10% of attendance results in a meeting with the college board members.",
+            "answer": "1. When the percentage falls between 40% and 67%, you must provide an undertaking.\n2. When the percentage drops below 40%, both an affidavit and an undertaking are mandatory.\n3. Attendance below 10% triggers a mandatory meeting with college board members.",
             "relatedIds": ["faq-attendance"]
           },
           {
@@ -130,7 +130,7 @@
             "id": "faq-admit-card-download",
             "question": "From where I can download my admit card?",
             "answer": "Your admit card will be issued through the SLC examination portal as per the notified schedule.",
-            "relatedIds": ["faq-exam-fee-fail", "faq-academic-calendar", "faq-admit-card-download", "faq-exam-centre"]
+            "relatedIds": ["faq-exam-fee-fail", "faq-academic-calendar", "faq-exam-centre"]
           },
           {
             "id": "faq-exam-fee-fail",
@@ -152,14 +152,14 @@
         "children": [
           {
             "id": "faq-backlog-exam",
-            "question": "Backlog/repeat exams",
+            "question": "How do I apply for backlog/repeat exams?",
             "answer": "You can apply for re-examination on the SLC portal while filling the examination form.",
             "relatedIds": ["faq-improvement-exam", "faq-admit-card-download"]
           },
           {
             "id": "faq-results-declared",
             "question": "When are semester results declared?",
-            "answer": "Usually after 1 or 2 months of your last exam, it is expected ",
+            "answer": "Semester results are usually declared after 1 or 2 months of your last examination.",
             "relatedIds": ["faq-download-marksheet", "faq-revaluation"]
           },
           {
@@ -208,7 +208,7 @@
             "id": "faq-college-migration",
             "question": "How to apply for inter college migration?",
             "answer": "You need to submit an application in the college office once notification regarding the same is released by the University.\n\nThe requirements are -\n1. You must be in second year.\n2. Maintain a great CGPA.\n3. Availability of seat in the desired course of the desired college.",
-            "relatedIds": ["faq-college-migration", "faq-admin-timings"]
+            "relatedIds": ["faq-admin-timings"]
           },
           {
             "id": "faq-fee-concession",
@@ -235,7 +235,7 @@
         "children": [
           {
             "id": "faq-email-help",
-            "question": "College email",
+            "question": "How do I access my college email and what are the login credentials?",
             "answer": "Email: YOUR_ROLL_NO@arsd.du.ac.in (38099@arsd.du.ac.in)\nPassword: YOUR_ROLL_NO@FIRST_NAME (38099@ABCD)",
             "relatedIds": ["faq-reset-email-pass", "faq-wifi", "faq-student-portal-login"]
           },
@@ -271,14 +271,14 @@
         "children": [
           {
             "id": "faq-item-lost",
-            "question": "Lost personal belongings",
+            "question": "What should I do if I lose personal belongings on campus?",
             "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. Report the matter to the college office or security personnels.",
             "relatedIds": ["faq-id-lost"]
           },
           {
             "id": "faq-id-lost",
-            "question": "Lost college ID",
-            "answer": "1. Don't panic, share a lost & found message to all whatsapp groups possible.\n2. If still not found, then file an FIR at your nearest police station.\n3. A duplicate card will be issued from the office upon payment of ₹100 along with the FIR.",
+            "question": "What should I do if I lose my college ID card?",
+            "answer": "1. Stay calm and post a lost and found notice across every WhatsApp group you're part of.\n2. If the item remains missing, file a First Information Report at your local police station.\n3. The office will issue a replacement card for ₹100 once you provide the FIR and complete the payment.",
             "relatedIds": ["faq-item-lost", "faq-library-card-lost"]
           },
           {
@@ -411,13 +411,13 @@
             "id": "faq-rejection",
             "question": "What are possible reasons for rejection?",
             "answer": "Incorrect info, Unreadable documents, expired income or caste certificate and bank details mismatch",
-            "relatedIds": ["faq-travel-concessions", "faq-accomodation"]
+            "relatedIds": []
           },
           {
             "id": "faq-more-scholarship",
             "question": "Can I apply for more than one scholarships?",
             "answer": "No, it is not possible to enlist under more than two or more scholarships.",
-            "relatedIds": [""]
+            "relatedIds": []
           }
         ]
       },
@@ -552,7 +552,7 @@
             "id": "faq-internships-provided",
             "question": "Are internships provided by the college?",
             "answer": "ARSD provides Principle Internship (PAIS) to eligible students accross the campus. Moreover, the University of Delhi provides Vice Chancellor Internship (VCIS).\n\nAlso, the placement cell of ARSD holds yearly internship drives for the students. So make sure to join their whatsapp group!",
-            "relatedIds": ["faq-pais-internship", "faq-admin-timings"]
+            "relatedIds": ["faq-pais-internship"]
           },
           {
             "id": "faq-pais-internship",
